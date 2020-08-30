@@ -1,6 +1,8 @@
 <img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
 <p><h1 align="left">Switches</h1></p>
 > An animate switch collection
+
+
 [![CI Status](https://travis-ci.org/jwd-ali/RingPieChart.svg)](https://travis-ci.org/jwd-ali/RingPieChart)
 [![CocoaPods Version](https://img.shields.io/cocoapods/v/RingPieChart.svg?style=flat)](https://cocoapods.org/pods/RingPieChart)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-0473B3.svg?style=flat)](https://github.com/Carthage/Carthage)
