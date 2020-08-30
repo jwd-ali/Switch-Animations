@@ -10,6 +10,38 @@
 		E30C48BB24FAE6930049D5C3 /* Switches.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30C48B124FAE6930049D5C3 /* Switches.framework */; };
 		E30C48C024FAE6930049D5C3 /* SwitchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48BF24FAE6930049D5C3 /* SwitchesTests.swift */; };
 		E30C48C224FAE6930049D5C3 /* Switches.h in Headers */ = {isa = PBXBuildFile; fileRef = E30C48B424FAE6930049D5C3 /* Switches.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30C48D924FAE6BB0049D5C3 /* JDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48CC24FAE6BB0049D5C3 /* JDNavigationController.swift */; };
+		E30C48DA24FAE6BB0049D5C3 /* JDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48CD24FAE6BB0049D5C3 /* JDNavigationBar.swift */; };
+		E30C48DB24FAE6BB0049D5C3 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48CF24FAE6BB0049D5C3 /* Switcher.swift */; };
+		E30C48DC24FAE6BB0049D5C3 /* TKLiquidSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D024FAE6BB0049D5C3 /* TKLiquidSwitch.swift */; };
+		E30C48DD24FAE6BB0049D5C3 /* JDSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D124FAE6BB0049D5C3 /* JDSwitch.swift */; };
+		E30C48DE24FAE6BB0049D5C3 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D224FAE6BB0049D5C3 /* UIImage+Extension.swift */; };
+		E30C48DF24FAE6BB0049D5C3 /* TKBaseSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D324FAE6BB0049D5C3 /* TKBaseSwitcher.swift */; };
+		E30C48E024FAE6BB0049D5C3 /* SDSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D424FAE6BB0049D5C3 /* SDSwitch.swift */; };
+		E30C48E124FAE6BB0049D5C3 /* YapSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D524FAE6BB0049D5C3 /* YapSwitch.swift */; };
+		E30C48E224FAE6BB0049D5C3 /* BaseControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D624FAE6BB0049D5C3 /* BaseControl.swift */; };
+		E30C48E324FAE6BB0049D5C3 /* TKSmileSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D724FAE6BB0049D5C3 /* TKSmileSwitch.swift */; };
+		E30C48E424FAE6BB0049D5C3 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D824FAE6BB0049D5C3 /* CALayer+Extension.swift */; };
+		E30C490324FAE7420049D5C3 /* SwitchesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C490224FAE7420049D5C3 /* SwitchesDemoTests.swift */; };
+		E30C490E24FAE7420049D5C3 /* SwitchesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C490D24FAE7420049D5C3 /* SwitchesDemoUITests.swift */; };
+		E30C492F24FAE76F0049D5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C491A24FAE76F0049D5C3 /* AppDelegate.swift */; };
+		E30C493024FAE76F0049D5C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C491B24FAE76F0049D5C3 /* SceneDelegate.swift */; };
+		E30C493124FAE76F0049D5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30C491D24FAE76F0049D5C3 /* LaunchScreen.storyboard */; };
+		E30C493224FAE76F0049D5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30C491F24FAE76F0049D5C3 /* Main.storyboard */; };
+		E30C493324FAE76F0049D5C3 /* SmileyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492224FAE76F0049D5C3 /* SmileyViewController.swift */; };
+		E30C493424FAE76F0049D5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492324FAE76F0049D5C3 /* ViewController.swift */; };
+		E30C493524FAE76F0049D5C3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492524FAE76F0049D5C3 /* CollectionViewCell.swift */; };
+		E30C493624FAE76F0049D5C3 /* ModeSwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492624FAE76F0049D5C3 /* ModeSwitchesViewController.swift */; };
+		E30C493724FAE76F0049D5C3 /* GradientSwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492724FAE76F0049D5C3 /* GradientSwitchesViewController.swift */; };
+		E30C493824FAE76F0049D5C3 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492824FAE76F0049D5C3 /* RandomViewController.swift */; };
+		E30C493924FAE76F0049D5C3 /* ModeBSwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492924FAE76F0049D5C3 /* ModeBSwitchesViewController.swift */; };
+		E30C493A24FAE76F0049D5C3 /* SwiftyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492A24FAE76F0049D5C3 /* SwiftyViewController.swift */; };
+		E30C493B24FAE76F0049D5C3 /* AnimatedSwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492B24FAE76F0049D5C3 /* AnimatedSwitchesViewController.swift */; };
+		E30C493C24FAE76F0049D5C3 /* ThumbImageSwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492C24FAE76F0049D5C3 /* ThumbImageSwitchesViewController.swift */; };
+		E30C493D24FAE76F0049D5C3 /* LoadingSwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492D24FAE76F0049D5C3 /* LoadingSwitchesViewController.swift */; };
+		E30C493E24FAE76F0049D5C3 /* JellySwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492E24FAE76F0049D5C3 /* JellySwitchesViewController.swift */; };
+		E30C494724FAE8350049D5C3 /* SwitchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C494624FAE8350049D5C3 /* SwitchType.swift */; };
+		E30C494824FAEB5B0049D5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30C494224FAE7BC0049D5C3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +52,20 @@
 			remoteGlobalIDString = E30C48B024FAE6930049D5C3;
 			remoteInfo = Switches;
 		};
+		E30C48FF24FAE7420049D5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E30C48A824FAE6930049D5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E30C48E824FAE73F0049D5C3;
+			remoteInfo = SwitchesDemo;
+		};
+		E30C490A24FAE7420049D5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E30C48A824FAE6930049D5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E30C48E824FAE73F0049D5C3;
+			remoteInfo = SwitchesDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +75,44 @@
 		E30C48BA24FAE6930049D5C3 /* SwitchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30C48BF24FAE6930049D5C3 /* SwitchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesTests.swift; sourceTree = "<group>"; };
 		E30C48C124FAE6930049D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30C48CC24FAE6BB0049D5C3 /* JDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDNavigationController.swift; sourceTree = "<group>"; };
+		E30C48CD24FAE6BB0049D5C3 /* JDNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDNavigationBar.swift; sourceTree = "<group>"; };
+		E30C48CF24FAE6BB0049D5C3 /* Switcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		E30C48D024FAE6BB0049D5C3 /* TKLiquidSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKLiquidSwitch.swift; sourceTree = "<group>"; };
+		E30C48D124FAE6BB0049D5C3 /* JDSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDSwitch.swift; sourceTree = "<group>"; };
+		E30C48D224FAE6BB0049D5C3 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		E30C48D324FAE6BB0049D5C3 /* TKBaseSwitcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKBaseSwitcher.swift; sourceTree = "<group>"; };
+		E30C48D424FAE6BB0049D5C3 /* SDSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSwitch.swift; sourceTree = "<group>"; };
+		E30C48D524FAE6BB0049D5C3 /* YapSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapSwitch.swift; sourceTree = "<group>"; };
+		E30C48D624FAE6BB0049D5C3 /* BaseControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseControl.swift; sourceTree = "<group>"; };
+		E30C48D724FAE6BB0049D5C3 /* TKSmileSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKSmileSwitch.swift; sourceTree = "<group>"; };
+		E30C48D824FAE6BB0049D5C3 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		E30C48E924FAE73F0049D5C3 /* SwitchesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30C48F924FAE7420049D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30C48FE24FAE7420049D5C3 /* SwitchesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30C490224FAE7420049D5C3 /* SwitchesDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesDemoTests.swift; sourceTree = "<group>"; };
+		E30C490424FAE7420049D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30C490924FAE7420049D5C3 /* SwitchesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30C490D24FAE7420049D5C3 /* SwitchesDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesDemoUITests.swift; sourceTree = "<group>"; };
+		E30C490F24FAE7420049D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30C491A24FAE76F0049D5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E30C491B24FAE76F0049D5C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E30C491E24FAE76F0049D5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E30C492024FAE76F0049D5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E30C492224FAE76F0049D5C3 /* SmileyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileyViewController.swift; sourceTree = "<group>"; };
+		E30C492324FAE76F0049D5C3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E30C492524FAE76F0049D5C3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E30C492624FAE76F0049D5C3 /* ModeSwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeSwitchesViewController.swift; sourceTree = "<group>"; };
+		E30C492724FAE76F0049D5C3 /* GradientSwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientSwitchesViewController.swift; sourceTree = "<group>"; };
+		E30C492824FAE76F0049D5C3 /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		E30C492924FAE76F0049D5C3 /* ModeBSwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeBSwitchesViewController.swift; sourceTree = "<group>"; };
+		E30C492A24FAE76F0049D5C3 /* SwiftyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyViewController.swift; sourceTree = "<group>"; };
+		E30C492B24FAE76F0049D5C3 /* AnimatedSwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedSwitchesViewController.swift; sourceTree = "<group>"; };
+		E30C492C24FAE76F0049D5C3 /* ThumbImageSwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbImageSwitchesViewController.swift; sourceTree = "<group>"; };
+		E30C492D24FAE76F0049D5C3 /* LoadingSwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingSwitchesViewController.swift; sourceTree = "<group>"; };
+		E30C492E24FAE76F0049D5C3 /* JellySwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JellySwitchesViewController.swift; sourceTree = "<group>"; };
+		E30C494224FAE7BC0049D5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E30C494624FAE8350049D5C3 /* SwitchType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +131,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E30C48E624FAE73F0049D5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30C48FB24FAE7420049D5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30C490624FAE7420049D5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +160,9 @@
 			children = (
 				E30C48B324FAE6930049D5C3 /* Switches */,
 				E30C48BE24FAE6930049D5C3 /* SwitchesTests */,
+				E30C48EA24FAE73F0049D5C3 /* SwitchesDemo */,
+				E30C490124FAE7420049D5C3 /* SwitchesDemoTests */,
+				E30C490C24FAE7420049D5C3 /* SwitchesDemoUITests */,
 				E30C48B224FAE6930049D5C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +172,9 @@
 			children = (
 				E30C48B124FAE6930049D5C3 /* Switches.framework */,
 				E30C48BA24FAE6930049D5C3 /* SwitchesTests.xctest */,
+				E30C48E924FAE73F0049D5C3 /* SwitchesDemo.app */,
+				E30C48FE24FAE7420049D5C3 /* SwitchesDemoTests.xctest */,
+				E30C490924FAE7420049D5C3 /* SwitchesDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				E30C48B424FAE6930049D5C3 /* Switches.h */,
+				E30C48CB24FAE6BB0049D5C3 /* Navigation */,
+				E30C48CE24FAE6BB0049D5C3 /* Switches */,
 				E30C48B524FAE6930049D5C3 /* Info.plist */,
 			);
 			path = Switches;
@@ -84,6 +197,124 @@
 				E30C48C124FAE6930049D5C3 /* Info.plist */,
 			);
 			path = SwitchesTests;
+			sourceTree = "<group>";
+		};
+		E30C48CB24FAE6BB0049D5C3 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E30C48CC24FAE6BB0049D5C3 /* JDNavigationController.swift */,
+				E30C48CD24FAE6BB0049D5C3 /* JDNavigationBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E30C48CE24FAE6BB0049D5C3 /* Switches */ = {
+			isa = PBXGroup;
+			children = (
+				E30C48CF24FAE6BB0049D5C3 /* Switcher.swift */,
+				E30C48D024FAE6BB0049D5C3 /* TKLiquidSwitch.swift */,
+				E30C48D124FAE6BB0049D5C3 /* JDSwitch.swift */,
+				E30C48D224FAE6BB0049D5C3 /* UIImage+Extension.swift */,
+				E30C48D324FAE6BB0049D5C3 /* TKBaseSwitcher.swift */,
+				E30C48D424FAE6BB0049D5C3 /* SDSwitch.swift */,
+				E30C48D524FAE6BB0049D5C3 /* YapSwitch.swift */,
+				E30C48D624FAE6BB0049D5C3 /* BaseControl.swift */,
+				E30C48D724FAE6BB0049D5C3 /* TKSmileSwitch.swift */,
+				E30C48D824FAE6BB0049D5C3 /* CALayer+Extension.swift */,
+			);
+			path = Switches;
+			sourceTree = "<group>";
+		};
+		E30C48EA24FAE73F0049D5C3 /* SwitchesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E30C494524FAE8350049D5C3 /* Model */,
+				E30C491924FAE76F0049D5C3 /* Application */,
+				E30C492124FAE76F0049D5C3 /* Controllers */,
+				E30C491C24FAE76F0049D5C3 /* Storyboard */,
+				E30C494124FAE7BC0049D5C3 /* Resources */,
+			);
+			path = SwitchesDemo;
+			sourceTree = "<group>";
+		};
+		E30C490124FAE7420049D5C3 /* SwitchesDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E30C490224FAE7420049D5C3 /* SwitchesDemoTests.swift */,
+				E30C490424FAE7420049D5C3 /* Info.plist */,
+			);
+			path = SwitchesDemoTests;
+			sourceTree = "<group>";
+		};
+		E30C490C24FAE7420049D5C3 /* SwitchesDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E30C490D24FAE7420049D5C3 /* SwitchesDemoUITests.swift */,
+				E30C490F24FAE7420049D5C3 /* Info.plist */,
+			);
+			path = SwitchesDemoUITests;
+			sourceTree = "<group>";
+		};
+		E30C491924FAE76F0049D5C3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E30C491A24FAE76F0049D5C3 /* AppDelegate.swift */,
+				E30C491B24FAE76F0049D5C3 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E30C491C24FAE76F0049D5C3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E30C491D24FAE76F0049D5C3 /* LaunchScreen.storyboard */,
+				E30C491F24FAE76F0049D5C3 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E30C492124FAE76F0049D5C3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E30C492224FAE76F0049D5C3 /* SmileyViewController.swift */,
+				E30C492324FAE76F0049D5C3 /* ViewController.swift */,
+				E30C492424FAE76F0049D5C3 /* CollectionViewCell */,
+				E30C492624FAE76F0049D5C3 /* ModeSwitchesViewController.swift */,
+				E30C492724FAE76F0049D5C3 /* GradientSwitchesViewController.swift */,
+				E30C492824FAE76F0049D5C3 /* RandomViewController.swift */,
+				E30C492924FAE76F0049D5C3 /* ModeBSwitchesViewController.swift */,
+				E30C492A24FAE76F0049D5C3 /* SwiftyViewController.swift */,
+				E30C492B24FAE76F0049D5C3 /* AnimatedSwitchesViewController.swift */,
+				E30C492C24FAE76F0049D5C3 /* ThumbImageSwitchesViewController.swift */,
+				E30C492D24FAE76F0049D5C3 /* LoadingSwitchesViewController.swift */,
+				E30C492E24FAE76F0049D5C3 /* JellySwitchesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E30C492424FAE76F0049D5C3 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E30C492524FAE76F0049D5C3 /* CollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E30C494124FAE7BC0049D5C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E30C494224FAE7BC0049D5C3 /* Assets.xcassets */,
+				E30C48F924FAE7420049D5C3 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E30C494524FAE8350049D5C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E30C494624FAE8350049D5C3 /* SwitchType.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +367,59 @@
 			productReference = E30C48BA24FAE6930049D5C3 /* SwitchesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E30C48E824FAE73F0049D5C3 /* SwitchesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E30C491024FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemo" */;
+			buildPhases = (
+				E30C48E524FAE73F0049D5C3 /* Sources */,
+				E30C48E624FAE73F0049D5C3 /* Frameworks */,
+				E30C48E724FAE73F0049D5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchesDemo;
+			productName = SwitchesDemo;
+			productReference = E30C48E924FAE73F0049D5C3 /* SwitchesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E30C48FD24FAE7420049D5C3 /* SwitchesDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E30C491324FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemoTests" */;
+			buildPhases = (
+				E30C48FA24FAE7420049D5C3 /* Sources */,
+				E30C48FB24FAE7420049D5C3 /* Frameworks */,
+				E30C48FC24FAE7420049D5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E30C490024FAE7420049D5C3 /* PBXTargetDependency */,
+			);
+			name = SwitchesDemoTests;
+			productName = SwitchesDemoTests;
+			productReference = E30C48FE24FAE7420049D5C3 /* SwitchesDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E30C490824FAE7420049D5C3 /* SwitchesDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E30C491624FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemoUITests" */;
+			buildPhases = (
+				E30C490524FAE7420049D5C3 /* Sources */,
+				E30C490624FAE7420049D5C3 /* Frameworks */,
+				E30C490724FAE7420049D5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E30C490B24FAE7420049D5C3 /* PBXTargetDependency */,
+			);
+			name = SwitchesDemoUITests;
+			productName = SwitchesDemoUITests;
+			productReference = E30C490924FAE7420049D5C3 /* SwitchesDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +435,17 @@
 					};
 					E30C48B924FAE6930049D5C3 = {
 						CreatedOnToolsVersion = 11.4.1;
+					};
+					E30C48E824FAE73F0049D5C3 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					E30C48FD24FAE7420049D5C3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E30C48E824FAE73F0049D5C3;
+					};
+					E30C490824FAE7420049D5C3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E30C48E824FAE73F0049D5C3;
 					};
 				};
 			};
@@ -169,6 +464,9 @@
 			targets = (
 				E30C48B024FAE6930049D5C3 /* Switches */,
 				E30C48B924FAE6930049D5C3 /* SwitchesTests */,
+				E30C48E824FAE73F0049D5C3 /* SwitchesDemo */,
+				E30C48FD24FAE7420049D5C3 /* SwitchesDemoTests */,
+				E30C490824FAE7420049D5C3 /* SwitchesDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +486,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E30C48E724FAE73F0049D5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30C493224FAE76F0049D5C3 /* Main.storyboard in Resources */,
+				E30C494824FAEB5B0049D5C3 /* Assets.xcassets in Resources */,
+				E30C493124FAE76F0049D5C3 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30C48FC24FAE7420049D5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30C490724FAE7420049D5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +517,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30C48DC24FAE6BB0049D5C3 /* TKLiquidSwitch.swift in Sources */,
+				E30C48D924FAE6BB0049D5C3 /* JDNavigationController.swift in Sources */,
+				E30C48E024FAE6BB0049D5C3 /* SDSwitch.swift in Sources */,
+				E30C48E124FAE6BB0049D5C3 /* YapSwitch.swift in Sources */,
+				E30C48E224FAE6BB0049D5C3 /* BaseControl.swift in Sources */,
+				E30C48DF24FAE6BB0049D5C3 /* TKBaseSwitcher.swift in Sources */,
+				E30C48DD24FAE6BB0049D5C3 /* JDSwitch.swift in Sources */,
+				E30C48DE24FAE6BB0049D5C3 /* UIImage+Extension.swift in Sources */,
+				E30C48DA24FAE6BB0049D5C3 /* JDNavigationBar.swift in Sources */,
+				E30C48E324FAE6BB0049D5C3 /* TKSmileSwitch.swift in Sources */,
+				E30C48DB24FAE6BB0049D5C3 /* Switcher.swift in Sources */,
+				E30C48E424FAE6BB0049D5C3 /* CALayer+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +540,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E30C48E524FAE73F0049D5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30C494724FAE8350049D5C3 /* SwitchType.swift in Sources */,
+				E30C493724FAE76F0049D5C3 /* GradientSwitchesViewController.swift in Sources */,
+				E30C493824FAE76F0049D5C3 /* RandomViewController.swift in Sources */,
+				E30C493A24FAE76F0049D5C3 /* SwiftyViewController.swift in Sources */,
+				E30C493E24FAE76F0049D5C3 /* JellySwitchesViewController.swift in Sources */,
+				E30C493C24FAE76F0049D5C3 /* ThumbImageSwitchesViewController.swift in Sources */,
+				E30C493024FAE76F0049D5C3 /* SceneDelegate.swift in Sources */,
+				E30C493324FAE76F0049D5C3 /* SmileyViewController.swift in Sources */,
+				E30C493B24FAE76F0049D5C3 /* AnimatedSwitchesViewController.swift in Sources */,
+				E30C493524FAE76F0049D5C3 /* CollectionViewCell.swift in Sources */,
+				E30C492F24FAE76F0049D5C3 /* AppDelegate.swift in Sources */,
+				E30C493624FAE76F0049D5C3 /* ModeSwitchesViewController.swift in Sources */,
+				E30C493924FAE76F0049D5C3 /* ModeBSwitchesViewController.swift in Sources */,
+				E30C493424FAE76F0049D5C3 /* ViewController.swift in Sources */,
+				E30C493D24FAE76F0049D5C3 /* LoadingSwitchesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30C48FA24FAE7420049D5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30C490324FAE7420049D5C3 /* SwitchesDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30C490524FAE7420049D5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30C490E24FAE7420049D5C3 /* SwitchesDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +586,36 @@
 			target = E30C48B024FAE6930049D5C3 /* Switches */;
 			targetProxy = E30C48BC24FAE6930049D5C3 /* PBXContainerItemProxy */;
 		};
+		E30C490024FAE7420049D5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E30C48E824FAE73F0049D5C3 /* SwitchesDemo */;
+			targetProxy = E30C48FF24FAE7420049D5C3 /* PBXContainerItemProxy */;
+		};
+		E30C490B24FAE7420049D5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E30C48E824FAE73F0049D5C3 /* SwitchesDemo */;
+			targetProxy = E30C490A24FAE7420049D5C3 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E30C491D24FAE76F0049D5C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E30C491E24FAE76F0049D5C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E30C491F24FAE76F0049D5C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E30C492024FAE76F0049D5C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E30C48C324FAE6930049D5C3 /* Debug */ = {
@@ -388,6 +789,7 @@
 		E30C48C924FAE6930049D5C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VBQS7JDYT;
 				INFOPLIST_FILE = SwitchesTests/Info.plist;
@@ -406,6 +808,7 @@
 		E30C48CA24FAE6930049D5C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VBQS7JDYT;
 				INFOPLIST_FILE = SwitchesTests/Info.plist;
@@ -418,6 +821,126 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E30C491124FAE7420049D5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VBQS7JDYT;
+				INFOPLIST_FILE = SwitchesDemo/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E30C491224FAE7420049D5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VBQS7JDYT;
+				INFOPLIST_FILE = SwitchesDemo/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E30C491424FAE7420049D5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VBQS7JDYT;
+				INFOPLIST_FILE = SwitchesDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchesDemo.app/SwitchesDemo";
+			};
+			name = Debug;
+		};
+		E30C491524FAE7420049D5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VBQS7JDYT;
+				INFOPLIST_FILE = SwitchesDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchesDemo.app/SwitchesDemo";
+			};
+			name = Release;
+		};
+		E30C491724FAE7420049D5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VBQS7JDYT;
+				INFOPLIST_FILE = SwitchesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitchesDemo;
+			};
+			name = Debug;
+		};
+		E30C491824FAE7420049D5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VBQS7JDYT;
+				INFOPLIST_FILE = SwitchesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitchesDemo;
 			};
 			name = Release;
 		};
@@ -447,6 +970,33 @@
 			buildConfigurations = (
 				E30C48C924FAE6930049D5C3 /* Debug */,
 				E30C48CA24FAE6930049D5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E30C491024FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30C491124FAE7420049D5C3 /* Debug */,
+				E30C491224FAE7420049D5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E30C491324FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30C491424FAE7420049D5C3 /* Debug */,
+				E30C491524FAE7420049D5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E30C491624FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30C491724FAE7420049D5C3 /* Debug */,
+				E30C491824FAE7420049D5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

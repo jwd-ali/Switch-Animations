@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R2E-i2-bWJ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ePU-2V-qFO">
+            <objects>
+                <navigationController id="R2E-i2-bWJ" customClass="JDNavigationController" customModule="Switches" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" translucent="NO" id="gop-mY-fHK" customClass="JDNavigationBar" customModule="Switches">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.8258708119" green="0.31963688140000002" blue="0.55295544860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iAS-zl-jlW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="98p-5N-bxG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1816" y="118"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="QiJ-Cl-cV6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdl-Op-475">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="59.5"/>
+                                        <state key="normal" title="StretchSwitch"/>
+                                        <connections>
+                                            <segue destination="msr-dh-jeU" kind="show" identifier="Transition Switches" id="fky-Hn-ugj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpg-9P-E9I">
+                                        <rect key="frame" x="0.0" y="79.5" width="414" height="59.5"/>
+                                        <state key="normal" title="Loading Switch"/>
+                                        <connections>
+                                            <segue destination="0tJ-xO-3V2" kind="show" identifier="Loading Switches" id="ARh-4v-kG7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcQ-t9-0KZ">
+                                        <rect key="frame" x="0.0" y="159" width="414" height="59"/>
+                                        <state key="normal" title="Jelly Switch"/>
+                                        <connections>
+                                            <segue destination="CZ6-D7-rrH" kind="show" identifier="Jelly Switches" id="iLD-7x-ZuU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0P-nI-Rji">
+                                        <rect key="frame" x="0.0" y="238" width="414" height="59.5"/>
+                                        <state key="normal" title="Animated Switches"/>
+                                        <connections>
+                                            <segue destination="Kdc-Y5-o5B" kind="show" identifier="Animated Switches" id="We7-gJ-9bD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p33-0b-o6h">
+                                        <rect key="frame" x="0.0" y="317.5" width="414" height="59.5"/>
+                                        <state key="normal" title="Mode Switches"/>
+                                        <connections>
+                                            <segue destination="6YG-bB-KA9" kind="show" identifier="Mode Switches" id="9HE-dn-DT8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ee4-rr-wdl">
+                                        <rect key="frame" x="0.0" y="397" width="414" height="59.5"/>
+                                        <state key="normal" title="Mode B Switches"/>
+                                        <connections>
+                                            <segue destination="f6v-qZ-Cg9" kind="show" identifier="Cool Switches" id="ZyD-Mg-4yD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEd-Hk-pQv">
+                                        <rect key="frame" x="0.0" y="476.5" width="414" height="59.5"/>
+                                        <state key="normal" title="Gradient Switched"/>
+                                        <connections>
+                                            <segue destination="N9u-BH-Lxn" kind="show" identifier="Gradient Switches" id="sXy-Z9-PIW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biK-Gx-8qE">
+                                        <rect key="frame" x="0.0" y="556" width="414" height="59"/>
+                                        <state key="normal" title="Thumbnail Image switches"/>
+                                        <connections>
+                                            <segue destination="JgT-os-7Vh" kind="show" identifier="Cover Switches" id="emY-Fs-Xyi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6R-D3-Odi">
+                                        <rect key="frame" x="0.0" y="635" width="414" height="59.5"/>
+                                        <state key="normal" title="Smiley Switch"/>
+                                        <connections>
+                                            <segue destination="vZZ-ww-baC" kind="show" identifier="Smiley Switches" id="HtF-dB-CBH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SpQ-hP-UYN">
+                                        <rect key="frame" x="0.0" y="714.5" width="414" height="59.5"/>
+                                        <state key="normal" title="Random Switch"/>
+                                        <connections>
+                                            <segue destination="led-Vd-Zdy" kind="show" identifier="Random Switches" id="NeJ-Z0-1Qa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYn-Kf-Og9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="zie-96-QPc">
+                                    <size key="itemSize" width="200" height="300"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="xo1-Jv-glB" customClass="CollectionViewCell" customModule="SwitchesDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="178" height="195"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4OX-fb-D3b">
+                                            <rect key="frame" x="0.0" y="0.0" width="178" height="195"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgE-xi-n2P">
+                                                    <rect key="frame" x="15" y="15" width="148" height="165"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SvO-VP-3wP">
+                                                            <rect key="frame" x="0.0" y="91" width="148" height="64"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="250" text="Strechy Switch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70U-9o-x13">
+                                                                    <rect key="frame" x="14" y="0.0" width="120.5" height="24"/>
+                                                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="18"/>
+                                                                    <color key="textColor" red="0.40324684979999997" green="0.69278115029999998" blue="0.91767621040000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsF-tq-cvY">
+                                                                    <rect key="frame" x="34.5" y="34" width="79" height="30"/>
+                                                                    <color key="backgroundColor" red="0.40324684979999997" green="0.69278115029999998" blue="0.91767621040000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="30" id="Tnp-Nj-9tp"/>
+                                                                        <constraint firstAttribute="width" constant="79" id="fLm-jO-EdW"/>
+                                                                    </constraints>
+                                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                                                                    <state key="normal" title="View All">
+                                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    </state>
+                                                                    <connections>
+                                                                        <action selector="viewAllTapped:" destination="xo1-Jv-glB" eventType="touchUpInside" id="xXf-rX-6Og"/>
+                                                                    </connections>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2FU-ar-RVx">
+                                                            <rect key="frame" x="0.0" y="10" width="148" height="81"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xH1-pf-yco">
+                                                                    <rect key="frame" x="15" y="13.5" width="118" height="54"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="xH1-pf-yco" secondAttribute="height" multiplier="2.2" id="bAO-f6-fVS"/>
+                                                                    </constraints>
+                                                                </view>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="xH1-pf-yco" firstAttribute="centerX" secondItem="2FU-ar-RVx" secondAttribute="centerX" id="1O0-WV-RK1"/>
+                                                                <constraint firstItem="xH1-pf-yco" firstAttribute="centerY" secondItem="2FU-ar-RVx" secondAttribute="centerY" id="56k-QP-3tJ"/>
+                                                                <constraint firstItem="xH1-pf-yco" firstAttribute="width" secondItem="2FU-ar-RVx" secondAttribute="width" multiplier="0.8" id="mfA-jA-hdM"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="2FU-ar-RVx" firstAttribute="top" secondItem="xgE-xi-n2P" secondAttribute="top" constant="10" id="3WO-gv-cJO"/>
+                                                        <constraint firstAttribute="bottom" secondItem="SvO-VP-3wP" secondAttribute="bottom" constant="10" id="4gc-NJ-Npu"/>
+                                                        <constraint firstAttribute="trailing" secondItem="2FU-ar-RVx" secondAttribute="trailing" id="6Bv-uN-A6V"/>
+                                                        <constraint firstAttribute="trailing" secondItem="SvO-VP-3wP" secondAttribute="trailing" id="HW7-cx-QHt"/>
+                                                        <constraint firstItem="SvO-VP-3wP" firstAttribute="top" secondItem="2FU-ar-RVx" secondAttribute="bottom" id="HyU-16-vNo"/>
+                                                        <constraint firstItem="2FU-ar-RVx" firstAttribute="leading" secondItem="xgE-xi-n2P" secondAttribute="leading" id="XN0-mM-eLe"/>
+                                                        <constraint firstItem="SvO-VP-3wP" firstAttribute="leading" secondItem="xgE-xi-n2P" secondAttribute="leading" id="bvg-ex-3a9"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="xgE-xi-n2P" firstAttribute="leading" secondItem="4OX-fb-D3b" secondAttribute="leading" constant="15" id="QuL-wx-eTk"/>
+                                                <constraint firstAttribute="trailing" secondItem="xgE-xi-n2P" secondAttribute="trailing" constant="15" id="RAu-e4-diV"/>
+                                                <constraint firstItem="xgE-xi-n2P" firstAttribute="top" secondItem="4OX-fb-D3b" secondAttribute="top" constant="15" id="fvq-Wt-YVC"/>
+                                                <constraint firstAttribute="bottom" secondItem="xgE-xi-n2P" secondAttribute="bottom" constant="15" id="uZL-er-eJN"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="178" height="195"/>
+                                        <connections>
+                                            <outlet property="collectionName" destination="70U-9o-x13" id="rUE-JD-1Sj"/>
+                                            <outlet property="displaySwitch" destination="xH1-pf-yco" id="usn-ZH-kc6"/>
+                                            <outlet property="holdingView" destination="xgE-xi-n2P" id="Zzh-LU-ELV"/>
+                                            <outlet property="viewAllButton" destination="jsF-tq-cvY" id="fAk-RE-g41"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="bqe-eM-mpS"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="xg1-WO-sdW"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QiJ-Cl-cV6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7Rh-5q-EmG"/>
+                            <constraint firstItem="QiJ-Cl-cV6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HTu-4J-3h7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QiJ-Cl-cV6" secondAttribute="bottom" id="bxd-ak-L5D"/>
+                            <constraint firstItem="zYn-Kf-Og9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dSM-eN-05m"/>
+                            <constraint firstItem="zYn-Kf-Og9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eDh-kK-umG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zYn-Kf-Og9" secondAttribute="bottom" id="mId-vo-fdE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QiJ-Cl-cV6" secondAttribute="trailing" id="wAG-Fa-TJq"/>
+                            <constraint firstItem="zYn-Kf-Og9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xqu-nN-snV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fLJ-OT-Pok"/>
+                    <connections>
+                        <outlet property="collectionView" destination="zYn-Kf-Og9" id="XGv-gT-3IO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-981.15942028985512" y="-52.232142857142854"/>
+        </scene>
+        <!--Random View Controller-->
+        <scene sceneID="gSB-KN-BKE">
+            <objects>
+                <viewController id="led-Vd-Zdy" customClass="RandomViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XJx-kg-sad">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UKg-y0-f5z">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MZe-sd-IVS">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="110.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DDZ-Rr-uIW" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="122" y="20.5" width="170" height="70"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="170" id="nXc-bA-caO"/>
+                                                    <constraint firstAttribute="height" constant="70" id="xnq-rQ-cwc"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="DDZ-Rr-uIW" firstAttribute="centerX" secondItem="MZe-sd-IVS" secondAttribute="centerX" id="3aX-fb-mPN"/>
+                                            <constraint firstItem="DDZ-Rr-uIW" firstAttribute="centerY" secondItem="MZe-sd-IVS" secondAttribute="centerY" id="jHD-oG-Zv4"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UCi-kn-BnM">
+                                        <rect key="frame" x="0.0" y="110.5" width="414" height="110.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="enw-b5-cZI" customClass="YapSwitchSlim" customModule="Switches">
+                                                <rect key="frame" x="122" y="20.5" width="170" height="70"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="70" id="eAD-pS-4Ex"/>
+                                                    <constraint firstAttribute="width" constant="170" id="zXB-qV-k7d"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="enw-b5-cZI" firstAttribute="centerX" secondItem="UCi-kn-BnM" secondAttribute="centerX" id="UWP-NA-A5c"/>
+                                            <constraint firstItem="enw-b5-cZI" firstAttribute="centerY" secondItem="UCi-kn-BnM" secondAttribute="centerY" id="vtR-Eh-z62"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UQ5-3g-ohu">
+                                        <rect key="frame" x="0.0" y="221" width="414" height="110.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdo-ed-3oT" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="122" y="20.5" width="170" height="70"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="170" id="97v-XE-NF4"/>
+                                                    <constraint firstAttribute="height" constant="70" id="Hdd-p6-Pva"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="fdo-ed-3oT" firstAttribute="centerX" secondItem="UQ5-3g-ohu" secondAttribute="centerX" id="LWm-G6-EcC"/>
+                                            <constraint firstItem="fdo-ed-3oT" firstAttribute="centerY" secondItem="UQ5-3g-ohu" secondAttribute="centerY" id="ani-rC-T1Y"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DOm-a2-35X">
+                                        <rect key="frame" x="0.0" y="331.5" width="414" height="111"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZa-QV-WTF" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="122" y="20.5" width="170" height="70"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="70" id="4TC-0D-O5l"/>
+                                                    <constraint firstAttribute="width" constant="170" id="JL5-O8-v6P"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="wZa-QV-WTF" firstAttribute="centerY" secondItem="DOm-a2-35X" secondAttribute="centerY" id="k9L-kc-vOI"/>
+                                            <constraint firstItem="wZa-QV-WTF" firstAttribute="centerX" secondItem="DOm-a2-35X" secondAttribute="centerX" id="s5m-Jn-vLz"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XQN-RJ-apl">
+                                        <rect key="frame" x="0.0" y="442.5" width="414" height="110.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MP0-tP-0kc" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="122" y="20" width="170" height="70"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="170" id="XsH-3t-GBr"/>
+                                                    <constraint firstAttribute="height" constant="70" id="opg-SI-TY9"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="MP0-tP-0kc" firstAttribute="centerY" secondItem="XQN-RJ-apl" secondAttribute="centerY" id="7zo-vH-dYY"/>
+                                            <constraint firstItem="MP0-tP-0kc" firstAttribute="centerX" secondItem="XQN-RJ-apl" secondAttribute="centerX" id="edB-jk-GfL"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Fn-mb-rLP">
+                                        <rect key="frame" x="0.0" y="553" width="414" height="110.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LFM-cg-kQq" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="122" y="20" width="170" height="70"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="170" id="164-cH-BYq"/>
+                                                    <constraint firstAttribute="height" constant="70" id="Tjc-RZ-bet"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="LFM-cg-kQq" firstAttribute="centerX" secondItem="2Fn-mb-rLP" secondAttribute="centerX" id="916-t0-afV"/>
+                                            <constraint firstItem="LFM-cg-kQq" firstAttribute="centerY" secondItem="2Fn-mb-rLP" secondAttribute="centerY" id="JZQ-dV-sBz"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8lc-2g-Ilp">
+                                        <rect key="frame" x="0.0" y="663.5" width="414" height="110.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eab-K0-e9r">
+                                                <rect key="frame" x="30" y="20" width="360" height="70"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9w-79-kqv" customClass="YapSwitch" customModule="Switches">
+                                                        <rect key="frame" x="0.0" y="0.0" width="170" height="70"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="70" id="iS2-qT-115"/>
+                                                            <constraint firstAttribute="width" constant="170" id="rp8-4f-Aex"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N1T-bf-wpP" customClass="YapSwitch" customModule="Switches">
+                                                        <rect key="frame" x="190" y="0.0" width="170" height="70"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="170" id="cPL-wq-ibP"/>
+                                                            <constraint firstAttribute="height" constant="70" id="hB5-Iw-2jE"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="eab-K0-e9r" firstAttribute="centerY" secondItem="8lc-2g-Ilp" secondAttribute="centerY" id="HAw-cD-N0c"/>
+                                            <constraint firstItem="eab-K0-e9r" firstAttribute="leading" secondItem="8lc-2g-Ilp" secondAttribute="leading" constant="30" id="lxT-0F-uHx"/>
+                                            <constraint firstAttribute="trailing" secondItem="eab-K0-e9r" secondAttribute="trailing" priority="999" id="qnG-FL-od9"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UKg-y0-f5z" firstAttribute="top" secondItem="1Mm-e4-pub" secondAttribute="top" id="127-yR-6Li"/>
+                            <constraint firstItem="UKg-y0-f5z" firstAttribute="leading" secondItem="1Mm-e4-pub" secondAttribute="leading" id="ohV-gQ-V0f"/>
+                            <constraint firstItem="1Mm-e4-pub" firstAttribute="bottom" secondItem="UKg-y0-f5z" secondAttribute="bottom" id="q9y-9Z-D0g"/>
+                            <constraint firstItem="1Mm-e4-pub" firstAttribute="trailing" secondItem="UKg-y0-f5z" secondAttribute="trailing" id="qvP-rF-h2e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1Mm-e4-pub"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ilF-TY-SL7"/>
+                    <connections>
+                        <outlet property="randomA" destination="DDZ-Rr-uIW" id="u0S-vO-cu6"/>
+                        <outlet property="randomB" destination="enw-b5-cZI" id="d4a-9u-8yK"/>
+                        <outlet property="randomC" destination="fdo-ed-3oT" id="6bh-AU-tcw"/>
+                        <outlet property="randomD" destination="wZa-QV-WTF" id="bCW-hC-5SI"/>
+                        <outlet property="randomE" destination="MP0-tP-0kc" id="5Jz-4x-vqB"/>
+                        <outlet property="randomG" destination="LFM-cg-kQq" id="hZl-zC-JSN"/>
+                        <outlet property="randomH" destination="V9w-79-kqv" id="JGd-Lb-qcG"/>
+                        <outlet property="randomI" destination="N1T-bf-wpP" id="gEJ-jX-cXU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7wn-Qu-18M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-130" y="178"/>
+        </scene>
+        <!--Smiley View Controller-->
+        <scene sceneID="LVu-A4-L5J">
+            <objects>
+                <viewController id="vZZ-ww-baC" customClass="SmileyViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wSU-E6-hVP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qrJ-P3-Dh2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ej2-w0-gTz">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="269.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="53C-U3-VBq" customClass="TKSmileSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="89.5" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="7BP-yy-dds"/>
+                                                    <constraint firstAttribute="height" constant="90" id="OKa-qE-lw2"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="53C-U3-VBq" firstAttribute="centerX" secondItem="ej2-w0-gTz" secondAttribute="centerX" id="MP8-SS-NRA"/>
+                                            <constraint firstItem="53C-U3-VBq" firstAttribute="centerY" secondItem="ej2-w0-gTz" secondAttribute="centerY" id="arx-U1-I96"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tv7-1A-Yl4">
+                                        <rect key="frame" x="0.0" y="269.5" width="414" height="269"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="elH-di-7Ou" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="89.5" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="1hr-Xs-lVr"/>
+                                                    <constraint firstAttribute="width" constant="200" id="8un-s7-pXT"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="elH-di-7Ou" firstAttribute="centerY" secondItem="Tv7-1A-Yl4" secondAttribute="centerY" id="MOu-XW-71r"/>
+                                            <constraint firstItem="elH-di-7Ou" firstAttribute="centerX" secondItem="Tv7-1A-Yl4" secondAttribute="centerX" id="rnj-mM-haw"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbQ-06-Qia">
+                                        <rect key="frame" x="0.0" y="538.5" width="414" height="269.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tH7-CM-wkb" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="90" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="WUD-4T-EM6"/>
+                                                    <constraint firstAttribute="width" constant="200" id="f8O-3U-WTH"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="tH7-CM-wkb" firstAttribute="centerY" secondItem="cbQ-06-Qia" secondAttribute="centerY" id="5pk-4P-YWH"/>
+                                            <constraint firstItem="tH7-CM-wkb" firstAttribute="centerX" secondItem="cbQ-06-Qia" secondAttribute="centerX" id="JEA-XM-1O7"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ej2-w0-gTz" firstAttribute="height" secondItem="qrJ-P3-Dh2" secondAttribute="height" multiplier="0.5" constant="19" id="RtB-rh-oae"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="RtB-rh-oae"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qrJ-P3-Dh2" firstAttribute="top" secondItem="3cJ-sQ-bWs" secondAttribute="top" id="7Tq-Bx-kO4"/>
+                            <constraint firstItem="qrJ-P3-Dh2" firstAttribute="leading" secondItem="wSU-E6-hVP" secondAttribute="leading" id="Xj6-zq-Qdh"/>
+                            <constraint firstItem="3cJ-sQ-bWs" firstAttribute="trailing" secondItem="qrJ-P3-Dh2" secondAttribute="trailing" id="fvP-JH-r6x"/>
+                            <constraint firstAttribute="bottom" secondItem="qrJ-P3-Dh2" secondAttribute="bottom" id="rnh-ut-6UU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3cJ-sQ-bWs"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rEh-bR-Slh"/>
+                    <connections>
+                        <outlet property="randomA" destination="elH-di-7Ou" id="QGK-oT-td6"/>
+                        <outlet property="randomB" destination="tH7-CM-wkb" id="XcQ-bA-e93"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XJt-4S-IjZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1538" y="-755"/>
+        </scene>
+        <!--Jelly Switches View Controller-->
+        <scene sceneID="SnO-4G-78V">
+            <objects>
+                <viewController id="CZ6-D7-rrH" customClass="JellySwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7GZ-MQ-aAL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="CNk-Fp-DVu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5gJ-XI-cBh">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2H-dl-i8p" customClass="TKLiquidSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="pAR-Cr-o5L"/>
+                                                    <constraint firstAttribute="height" constant="90" id="q3Z-ag-85e"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iyn-7k-laB">
+                                                <rect key="frame" x="20" y="257" width="374" height="1"/>
+                                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1" id="PgP-oG-hNe"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="0.4939800941780822" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="H2H-dl-i8p" firstAttribute="centerX" secondItem="5gJ-XI-cBh" secondAttribute="centerX" id="3Mf-Tc-B3i"/>
+                                            <constraint firstItem="H2H-dl-i8p" firstAttribute="centerY" secondItem="5gJ-XI-cBh" secondAttribute="centerY" id="Ly0-Sc-OmP"/>
+                                            <constraint firstAttribute="bottom" secondItem="Iyn-7k-laB" secondAttribute="bottom" id="XIj-rw-o8i"/>
+                                            <constraint firstItem="Iyn-7k-laB" firstAttribute="leading" secondItem="5gJ-XI-cBh" secondAttribute="leading" constant="20" id="cty-oC-Pis"/>
+                                            <constraint firstAttribute="trailing" secondItem="Iyn-7k-laB" secondAttribute="trailing" constant="20" id="qbU-C1-gwI"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hgx-cV-WaC">
+                                        <rect key="frame" x="0.0" y="258" width="414" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vZ6-21-MG8" customClass="YapFullStretchSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="9NC-Z5-bSG"/>
+                                                    <constraint firstAttribute="width" constant="200" id="vWH-1I-VTe"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x3a-0M-UdW">
+                                                <rect key="frame" x="20" y="257" width="374" height="1"/>
+                                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1" id="eiN-8N-G8V"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.99492722749999996" green="0.81977850200000002" blue="0.81568264960000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="x3a-0M-UdW" secondAttribute="trailing" constant="20" id="5B4-QS-K2s"/>
+                                            <constraint firstItem="vZ6-21-MG8" firstAttribute="centerY" secondItem="Hgx-cV-WaC" secondAttribute="centerY" id="L7c-6P-sNC"/>
+                                            <constraint firstAttribute="bottom" secondItem="x3a-0M-UdW" secondAttribute="bottom" id="OS5-L0-kE4"/>
+                                            <constraint firstItem="x3a-0M-UdW" firstAttribute="leading" secondItem="Hgx-cV-WaC" secondAttribute="leading" constant="20" id="cV5-1S-CPT"/>
+                                            <constraint firstItem="vZ6-21-MG8" firstAttribute="centerX" secondItem="Hgx-cV-WaC" secondAttribute="centerX" id="y4h-oT-Oyk"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJo-0w-Xmg">
+                                        <rect key="frame" x="0.0" y="516" width="414" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZtP-tJ-fVv" customClass="YapHalfStretchSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="dwF-p2-WDf"/>
+                                                    <constraint firstAttribute="width" constant="200" id="wTG-Rj-fc4"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.42249036815068491" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="ZtP-tJ-fVv" firstAttribute="centerY" secondItem="lJo-0w-Xmg" secondAttribute="centerY" id="cDc-Cv-lzT"/>
+                                            <constraint firstItem="ZtP-tJ-fVv" firstAttribute="centerX" secondItem="lJo-0w-Xmg" secondAttribute="centerX" id="mOr-TZ-3yo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5gJ-XI-cBh" firstAttribute="height" secondItem="CNk-Fp-DVu" secondAttribute="height" multiplier="0.5" constant="19" id="KIO-MT-sDz"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="KIO-MT-sDz"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CNk-Fp-DVu" firstAttribute="top" secondItem="IKK-1R-veX" secondAttribute="top" id="3Ao-zA-BAE"/>
+                            <constraint firstAttribute="trailing" secondItem="CNk-Fp-DVu" secondAttribute="trailing" id="6OL-Q9-rrQ"/>
+                            <constraint firstItem="CNk-Fp-DVu" firstAttribute="leading" secondItem="IKK-1R-veX" secondAttribute="leading" id="cmj-LW-QBx"/>
+                            <constraint firstItem="IKK-1R-veX" firstAttribute="bottom" secondItem="CNk-Fp-DVu" secondAttribute="bottom" id="tsV-fy-3SC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IKK-1R-veX"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wgn-Y5-7ZZ"/>
+                    <connections>
+                        <outlet property="fullStretchSwitch" destination="vZ6-21-MG8" id="0Sd-ej-sei"/>
+                        <outlet property="halfStretchSwitch" destination="ZtP-tJ-fVv" id="lSj-eo-zue"/>
+                        <outlet property="jellySwitch" destination="H2H-dl-i8p" id="4cP-Yh-hNS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E4L-hi-1St" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-243.47826086956525" y="-505.58035714285711"/>
+        </scene>
+        <!--Mode Switches View Controller-->
+        <scene sceneID="sxv-Tc-SzQ">
+            <objects>
+                <viewController id="6YG-bB-KA9" customClass="ModeSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hDJ-4t-8Ap">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nMC-op-WmH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uyR-3P-Pz7">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MME-76-z7n" customClass="YapDarkAndLightModeSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="jT4-Ao-MKh"/>
+                                                    <constraint firstAttribute="height" constant="90" id="rsg-Uy-Fx9"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96765881779999996" green="0.82767272000000003" blue="0.81960445640000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="MME-76-z7n" firstAttribute="centerX" secondItem="uyR-3P-Pz7" secondAttribute="centerX" id="PwX-EE-teb"/>
+                                            <constraint firstItem="MME-76-z7n" firstAttribute="centerY" secondItem="uyR-3P-Pz7" secondAttribute="centerY" id="T1Q-BC-aci"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSd-ld-gS8">
+                                        <rect key="frame" x="0.0" y="404" width="414" height="404"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6aU-9y-2S7" customClass="YapDarkAndLightModeSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="RtD-lI-zeY"/>
+                                                    <constraint firstAttribute="height" constant="90" id="TMh-20-sx2"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="6aU-9y-2S7" firstAttribute="centerX" secondItem="eSd-ld-gS8" secondAttribute="centerX" id="GSB-n8-op8"/>
+                                            <constraint firstItem="6aU-9y-2S7" firstAttribute="centerY" secondItem="eSd-ld-gS8" secondAttribute="centerY" id="l8i-Bs-1Cd"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uyR-3P-Pz7" firstAttribute="height" secondItem="nMC-op-WmH" secondAttribute="height" multiplier="0.5" constant="19" id="Bx6-op-fxO"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Bx6-op-fxO"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HQa-hM-T2h" firstAttribute="trailing" secondItem="nMC-op-WmH" secondAttribute="trailing" id="4aP-c6-z5z"/>
+                            <constraint firstItem="nMC-op-WmH" firstAttribute="top" secondItem="hDJ-4t-8Ap" secondAttribute="top" id="P66-2g-GmV"/>
+                            <constraint firstItem="nMC-op-WmH" firstAttribute="leading" secondItem="hDJ-4t-8Ap" secondAttribute="leading" id="de2-tc-xUJ"/>
+                            <constraint firstAttribute="bottom" secondItem="nMC-op-WmH" secondAttribute="bottom" id="hGZ-WI-jlG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HQa-hM-T2h"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vX9-EP-n0H"/>
+                    <connections>
+                        <outlet property="modeSwitchStyleA" destination="MME-76-z7n" id="uzP-bJ-oUS"/>
+                        <outlet property="modeSwitchStyleB" destination="6aU-9y-2S7" id="cO0-zo-PuZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zst-xu-tXG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="665" y="-542"/>
+        </scene>
+        <!--Loading Switches View Controller-->
+        <scene sceneID="6fx-VJ-pdc">
+            <objects>
+                <viewController id="0tJ-xO-3V2" customClass="LoadingSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bfY-1v-l4g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7Ez-sf-WjE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w1x-u1-y2E">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfu-gP-bXb" customClass="SDSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="Qzj-Av-swK"/>
+                                                    <constraint firstAttribute="width" constant="200" id="xvE-aW-tiO"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grJ-7N-lag">
+                                                <rect key="frame" x="20" y="257" width="374" height="1"/>
+                                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1" id="Rzv-Mg-NHg"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.82460457089999994" green="0.88880741600000002" blue="0.95687323810000002" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="grJ-7N-lag" secondAttribute="trailing" constant="20" id="JeI-Lc-WzB"/>
+                                            <constraint firstItem="rfu-gP-bXb" firstAttribute="centerY" secondItem="w1x-u1-y2E" secondAttribute="centerY" id="Q3m-da-2V9"/>
+                                            <constraint firstAttribute="bottom" secondItem="grJ-7N-lag" secondAttribute="bottom" id="Yuk-dN-r5Z"/>
+                                            <constraint firstItem="rfu-gP-bXb" firstAttribute="centerX" secondItem="w1x-u1-y2E" secondAttribute="centerX" id="nh8-V2-ncE"/>
+                                            <constraint firstItem="grJ-7N-lag" firstAttribute="leading" secondItem="w1x-u1-y2E" secondAttribute="leading" constant="20" id="v4Q-eZ-wDi"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sp5-4y-cio">
+                                        <rect key="frame" x="0.0" y="258" width="414" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o1d-tc-Nf8" customClass="SDSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="Ijg-f4-oFc"/>
+                                                    <constraint firstAttribute="height" constant="90" id="Inm-uW-epj"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fqp-dZ-i2Q">
+                                                <rect key="frame" x="20" y="257" width="374" height="1"/>
+                                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1" id="gZa-Zo-c23"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.82460457089999994" green="0.88880741600000002" blue="0.95687323810000002" alpha="0.75" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="o1d-tc-Nf8" firstAttribute="centerY" secondItem="Sp5-4y-cio" secondAttribute="centerY" id="BYY-4u-H41"/>
+                                            <constraint firstAttribute="bottom" secondItem="Fqp-dZ-i2Q" secondAttribute="bottom" id="U7r-a8-HNB"/>
+                                            <constraint firstItem="o1d-tc-Nf8" firstAttribute="centerX" secondItem="Sp5-4y-cio" secondAttribute="centerX" id="VwL-nU-Nnb"/>
+                                            <constraint firstItem="Fqp-dZ-i2Q" firstAttribute="leading" secondItem="Sp5-4y-cio" secondAttribute="leading" constant="20" id="Wzo-AG-cRk"/>
+                                            <constraint firstAttribute="trailing" secondItem="Fqp-dZ-i2Q" secondAttribute="trailing" constant="20" id="o1m-ud-kBQ"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NmU-kT-6yf">
+                                        <rect key="frame" x="0.0" y="516" width="414" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eLz-7U-U48" customClass="YapFullTextSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="CWm-b7-EqQ"/>
+                                                    <constraint firstAttribute="width" constant="200" id="Ta3-BE-syr"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.82460457089999994" green="0.88880741600000002" blue="0.95687323810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="eLz-7U-U48" firstAttribute="centerX" secondItem="NmU-kT-6yf" secondAttribute="centerX" id="A8q-Ht-1uW"/>
+                                            <constraint firstItem="eLz-7U-U48" firstAttribute="centerY" secondItem="NmU-kT-6yf" secondAttribute="centerY" id="CcT-EB-ZqA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="w1x-u1-y2E" firstAttribute="height" secondItem="7Ez-sf-WjE" secondAttribute="height" multiplier="0.5" constant="19" id="oPG-sL-G1H"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="oPG-sL-G1H"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Dly-z6-ynO" firstAttribute="bottom" secondItem="7Ez-sf-WjE" secondAttribute="bottom" id="9be-R2-ltw"/>
+                            <constraint firstItem="Dly-z6-ynO" firstAttribute="trailing" secondItem="7Ez-sf-WjE" secondAttribute="trailing" id="E3p-AG-6Go"/>
+                            <constraint firstItem="7Ez-sf-WjE" firstAttribute="top" secondItem="Dly-z6-ynO" secondAttribute="top" id="fmU-lK-ukT"/>
+                            <constraint firstItem="7Ez-sf-WjE" firstAttribute="leading" secondItem="bfY-1v-l4g" secondAttribute="leading" id="uh4-vr-EfF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Dly-z6-ynO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="12E-2U-gZa"/>
+                    <connections>
+                        <outlet property="followedLastSwitch" destination="eLz-7U-U48" id="yQc-hc-GQr"/>
+                        <outlet property="followedMiddleSwitch" destination="o1d-tc-Nf8" id="aGy-sB-gnJ"/>
+                        <outlet property="loadingSwitch" destination="rfu-gP-bXb" id="CS0-dc-Y70"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3jX-u4-K75" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1064" y="740"/>
+        </scene>
+        <!--Gradient Switches View Controller-->
+        <scene sceneID="NGA-qW-909">
+            <objects>
+                <viewController id="N9u-BH-Lxn" customClass="GradientSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VAf-at-y7Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zaV-bq-4wH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uuK-qP-nRD">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vNc-wB-lRN" customClass="YapGradientSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="P7j-3O-a9W"/>
+                                                    <constraint firstAttribute="width" constant="200" id="tXV-fT-ihI"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verticaly Applied Gradient" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPI-nT-8Je">
+                                                <rect key="frame" x="48" y="35" width="312.5" height="33.5"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="vNc-wB-lRN" firstAttribute="centerX" secondItem="uuK-qP-nRD" secondAttribute="centerX" id="BMx-Du-6C2"/>
+                                            <constraint firstItem="OPI-nT-8Je" firstAttribute="leading" secondItem="uuK-qP-nRD" secondAttribute="leading" constant="48" id="S5P-6C-bdi"/>
+                                            <constraint firstItem="OPI-nT-8Je" firstAttribute="top" secondItem="uuK-qP-nRD" secondAttribute="top" constant="35" id="eQU-Pw-9Mu"/>
+                                            <constraint firstItem="vNc-wB-lRN" firstAttribute="centerY" secondItem="uuK-qP-nRD" secondAttribute="centerY" id="vlv-vG-b93"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQ7-wT-6FY">
+                                        <rect key="frame" x="0.0" y="404" width="414" height="404"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dcn-rf-Azv" customClass="YapGradientSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="cat-hg-m5p"/>
+                                                    <constraint firstAttribute="height" constant="90" id="vsD-9c-yLn"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horizantal Gradient Just on Side" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4f-yT-5iE">
+                                                <rect key="frame" x="34" y="24" width="346" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Dcn-rf-Azv" firstAttribute="centerY" secondItem="rQ7-wT-6FY" secondAttribute="centerY" id="4hv-5s-q47"/>
+                                            <constraint firstItem="z4f-yT-5iE" firstAttribute="top" secondItem="rQ7-wT-6FY" secondAttribute="top" constant="24" id="ak1-1Y-IUw"/>
+                                            <constraint firstItem="Dcn-rf-Azv" firstAttribute="centerX" secondItem="rQ7-wT-6FY" secondAttribute="centerX" id="fAm-XX-mwk"/>
+                                            <constraint firstItem="z4f-yT-5iE" firstAttribute="centerX" secondItem="rQ7-wT-6FY" secondAttribute="centerX" id="gs6-Rf-dwu"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uuK-qP-nRD" firstAttribute="height" secondItem="zaV-bq-4wH" secondAttribute="height" multiplier="0.5" constant="19" id="QA6-vZ-J0p"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="QA6-vZ-J0p"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zaV-bq-4wH" secondAttribute="bottom" id="A1w-az-8dE"/>
+                            <constraint firstItem="dWu-pj-Nm4" firstAttribute="trailing" secondItem="zaV-bq-4wH" secondAttribute="trailing" id="Rtn-BY-mRz"/>
+                            <constraint firstItem="zaV-bq-4wH" firstAttribute="top" secondItem="dWu-pj-Nm4" secondAttribute="top" id="W0E-MK-ymg"/>
+                            <constraint firstItem="zaV-bq-4wH" firstAttribute="leading" secondItem="VAf-at-y7Q" secondAttribute="leading" id="qCy-ce-WPS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dWu-pj-Nm4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CQv-xH-U1k"/>
+                    <connections>
+                        <outlet property="gradientSwitchHorizantal" destination="Dcn-rf-Azv" id="rUU-w0-f19"/>
+                        <outlet property="gradientSwitchVertical" destination="vNc-wB-lRN" id="4if-Dh-lmc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dU7-Lg-SnS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="960"/>
+        </scene>
+        <!--Swifty View Controller-->
+        <scene sceneID="jow-8h-AJS">
+            <objects>
+                <viewController id="msr-dh-jeU" customClass="SwiftyViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vli-JM-sSi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="11T-i6-tmL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgS-29-7sB">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RkN-A1-eFU">
+                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sqO-d9-IPC" customClass="Switcher" customModule="Switches">
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="90"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="200" id="Vc8-f5-gpW"/>
+                                                            <constraint firstAttribute="height" constant="90" id="wle-5T-uL7"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="BFA-Yb-Wbb"/>
+                                                    <constraint firstItem="sqO-d9-IPC" firstAttribute="centerY" secondItem="RkN-A1-eFU" secondAttribute="centerY" id="l2m-BJ-g7C"/>
+                                                    <constraint firstItem="sqO-d9-IPC" firstAttribute="centerX" secondItem="RkN-A1-eFU" secondAttribute="centerX" id="pEB-UD-lUf"/>
+                                                    <constraint firstAttribute="height" constant="90" id="xxr-af-PmO"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96079081300000002" green="0.96077281240000001" blue="0.96078497169999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="RkN-A1-eFU" firstAttribute="centerX" secondItem="wgS-29-7sB" secondAttribute="centerX" id="QRg-dt-Wow"/>
+                                            <constraint firstItem="RkN-A1-eFU" firstAttribute="centerY" secondItem="wgS-29-7sB" secondAttribute="centerY" id="rBL-eG-pPG"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXs-bV-Wdi">
+                                        <rect key="frame" x="0.0" y="258" width="414" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wss-h2-53e">
+                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LI0-6L-KOx" customClass="SwitcherFullStrtech" customModule="Switches">
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="90"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="200" id="3kk-7R-5be"/>
+                                                            <constraint firstAttribute="height" constant="90" id="Gn7-AF-GoK"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="7L2-zo-Rdh"/>
+                                                    <constraint firstItem="LI0-6L-KOx" firstAttribute="centerX" secondItem="Wss-h2-53e" secondAttribute="centerX" id="OgH-rT-Muw"/>
+                                                    <constraint firstItem="LI0-6L-KOx" firstAttribute="centerY" secondItem="Wss-h2-53e" secondAttribute="centerY" id="jGI-7c-ycW"/>
+                                                    <constraint firstAttribute="width" constant="200" id="sQI-ym-p2O"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Wss-h2-53e" firstAttribute="centerY" secondItem="fXs-bV-Wdi" secondAttribute="centerY" id="oRf-bn-psH"/>
+                                            <constraint firstItem="Wss-h2-53e" firstAttribute="centerX" secondItem="fXs-bV-Wdi" secondAttribute="centerX" id="y8M-Re-eXU"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="onb-Ym-ov4">
+                                        <rect key="frame" x="0.0" y="516" width="414" height="258"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsY-n1-F3I">
+                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wE4-wj-OI7" customClass="JDSwitch" customModule="Switches">
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="90"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="200" id="5vK-S9-jeD"/>
+                                                            <constraint firstAttribute="height" constant="90" id="LFO-GP-Cv7"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="wE4-wj-OI7" firstAttribute="centerY" secondItem="dsY-n1-F3I" secondAttribute="centerY" id="De5-Sw-STc"/>
+                                                    <constraint firstItem="wE4-wj-OI7" firstAttribute="centerX" secondItem="dsY-n1-F3I" secondAttribute="centerX" id="MUB-6a-VPy"/>
+                                                    <constraint firstAttribute="height" constant="90" id="hg3-S6-CBl"/>
+                                                    <constraint firstAttribute="width" constant="200" id="pqF-Un-Kpv"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="dsY-n1-F3I" firstAttribute="centerX" secondItem="onb-Ym-ov4" secondAttribute="centerX" id="C9V-2Q-Dhf"/>
+                                            <constraint firstItem="dsY-n1-F3I" firstAttribute="centerY" secondItem="onb-Ym-ov4" secondAttribute="centerY" id="NP6-bc-fDH"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="wgS-29-7sB" firstAttribute="height" secondItem="11T-i6-tmL" secondAttribute="height" multiplier="0.5" constant="19" id="6z9-U5-KXX"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6z9-U5-KXX"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="11T-i6-tmL" firstAttribute="leading" secondItem="vli-JM-sSi" secondAttribute="leading" id="3JF-wI-0TI"/>
+                            <constraint firstItem="yBO-A3-HC5" firstAttribute="bottom" secondItem="11T-i6-tmL" secondAttribute="bottom" id="Ksu-Bk-rYx"/>
+                            <constraint firstItem="yBO-A3-HC5" firstAttribute="trailing" secondItem="11T-i6-tmL" secondAttribute="trailing" id="ON1-mI-f2X"/>
+                            <constraint firstItem="11T-i6-tmL" firstAttribute="top" secondItem="yBO-A3-HC5" secondAttribute="top" id="yRL-3g-Zcs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yBO-A3-HC5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cBO-Ct-Ig1"/>
+                    <connections>
+                        <outlet property="swiftyA" destination="sqO-d9-IPC" id="YyC-gt-nLi"/>
+                        <outlet property="swiftyB" destination="LI0-6L-KOx" id="PAI-lr-BHf"/>
+                        <outlet property="swiftyC" destination="wE4-wj-OI7" id="1fG-9n-Nzj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DTt-gb-7cY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1288" y="899"/>
+        </scene>
+        <!--Animated Switches View Controller-->
+        <scene sceneID="AVl-zk-kX4">
+            <objects>
+                <viewController id="Kdc-Y5-o5B" customClass="AnimatedSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sch-1L-Qsu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uoB-oY-fBe">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j26-ag-Gar">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gyv-kr-PSV" customClass="YapAnimatedSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="4rk-hu-JBP"/>
+                                                    <constraint firstAttribute="width" constant="200" id="IFJ-AI-wQd"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.94436901809999996" green="0.89920216799999997" blue="0.83528465029999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="gyv-kr-PSV" firstAttribute="centerY" secondItem="j26-ag-Gar" secondAttribute="centerY" id="lrB-CF-enS"/>
+                                            <constraint firstItem="gyv-kr-PSV" firstAttribute="centerX" secondItem="j26-ag-Gar" secondAttribute="centerX" id="zaK-UT-HUr"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kQ8-Qg-aHK">
+                                        <rect key="frame" x="0.0" y="404" width="414" height="404"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TFg-00-gNv" customClass="YapAnimatedSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="Nq2-tV-kHZ"/>
+                                                    <constraint firstAttribute="width" constant="200" id="VZb-gO-XV7"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="TFg-00-gNv" firstAttribute="centerX" secondItem="kQ8-Qg-aHK" secondAttribute="centerX" id="pId-7A-Zmm"/>
+                                            <constraint firstItem="TFg-00-gNv" firstAttribute="centerY" secondItem="kQ8-Qg-aHK" secondAttribute="centerY" id="sB9-Jt-q7Z"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="j26-ag-Gar" firstAttribute="height" secondItem="uoB-oY-fBe" secondAttribute="height" multiplier="0.5" constant="19" id="Hcr-KZ-ZSY"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Hcr-KZ-ZSY"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uoB-oY-fBe" firstAttribute="leading" secondItem="9qp-qH-eqa" secondAttribute="leading" id="PFI-ys-yfK"/>
+                            <constraint firstItem="uoB-oY-fBe" firstAttribute="trailing" secondItem="Sch-1L-Qsu" secondAttribute="trailing" id="c3Z-xn-ICv"/>
+                            <constraint firstAttribute="bottom" secondItem="uoB-oY-fBe" secondAttribute="bottom" id="e58-UW-fmw"/>
+                            <constraint firstItem="uoB-oY-fBe" firstAttribute="top" secondItem="9qp-qH-eqa" secondAttribute="top" id="oAS-yM-Ssb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9qp-qH-eqa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nOq-uI-eAi"/>
+                    <connections>
+                        <outlet property="animatedStyleA" destination="gyv-kr-PSV" id="6dF-dR-d4m"/>
+                        <outlet property="animatedStyleB" destination="TFg-00-gNv" id="QBX-Nc-IiQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iOU-IF-nid" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008.6956521739131" y="152.67857142857142"/>
+        </scene>
+        <!--Thumb Image Switches View Controller-->
+        <scene sceneID="BhF-Ee-u2G">
+            <objects>
+                <viewController id="JgT-os-7Vh" customClass="ThumbImageSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OHw-bB-i5B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="RzO-KO-OrY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZCV-jw-1KI">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="202"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVl-zd-Rbz">
+                                                <rect key="frame" x="107" y="46" width="200" height="110"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kky-Q8-9Qp" customClass="YapSwitchSlim" customModule="Switches">
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="110"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="200" id="0mZ-Ch-pFb"/>
+                                                            <constraint firstAttribute="height" constant="110" id="wag-Eb-1ZJ"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="110" id="27Q-To-csh"/>
+                                                    <constraint firstItem="Kky-Q8-9Qp" firstAttribute="centerY" secondItem="iVl-zd-Rbz" secondAttribute="centerY" id="G3P-Qv-ZWr"/>
+                                                    <constraint firstAttribute="width" constant="200" id="cah-Kb-Lxg"/>
+                                                    <constraint firstItem="Kky-Q8-9Qp" firstAttribute="centerX" secondItem="iVl-zd-Rbz" secondAttribute="centerX" id="sEc-1u-Wmn"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.2179145217" green="0.44728857280000001" blue="0.60394197699999996" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="iVl-zd-Rbz" firstAttribute="centerX" secondItem="ZCV-jw-1KI" secondAttribute="centerX" id="Y4m-UX-Ezr"/>
+                                            <constraint firstItem="iVl-zd-Rbz" firstAttribute="centerY" secondItem="ZCV-jw-1KI" secondAttribute="centerY" id="gAU-pV-5RD"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4E6-vm-Uhs">
+                                        <rect key="frame" x="0.0" y="202" width="414" height="202"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCE-gj-V4Z" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="56" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="TCB-0f-XbK"/>
+                                                    <constraint firstAttribute="height" constant="90" id="olD-v0-p6z"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.68854033950000004" green="0.82923686500000005" blue="0.36851751799999999" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="bCE-gj-V4Z" firstAttribute="centerY" secondItem="4E6-vm-Uhs" secondAttribute="centerY" id="JjS-OV-JHo"/>
+                                            <constraint firstItem="bCE-gj-V4Z" firstAttribute="centerX" secondItem="4E6-vm-Uhs" secondAttribute="centerX" id="x3o-cR-QTA"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iTG-KI-vtr">
+                                        <rect key="frame" x="0.0" y="404" width="414" height="202"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kqs-PJ-FY1" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="56" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="ns5-oc-Agm"/>
+                                                    <constraint firstAttribute="width" constant="200" id="tzY-8V-8Nc"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.94436901809999996" green="0.89920216799999997" blue="0.83528465029999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="Kqs-PJ-FY1" firstAttribute="centerX" secondItem="iTG-KI-vtr" secondAttribute="centerX" id="Apt-8a-5fQ"/>
+                                            <constraint firstItem="Kqs-PJ-FY1" firstAttribute="centerY" secondItem="iTG-KI-vtr" secondAttribute="centerY" id="g6R-IE-fSS"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Bo-Id-lG7">
+                                        <rect key="frame" x="0.0" y="606" width="414" height="202"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdD-Vf-FgR" customClass="YapSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="56" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="FVn-SY-5Hw"/>
+                                                    <constraint firstAttribute="width" constant="200" id="Is9-hT-Zbn"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.6373833418" green="0.29537045960000002" blue="0.23919314150000001" alpha="0.51987906678082196" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="cdD-Vf-FgR" firstAttribute="centerX" secondItem="0Bo-Id-lG7" secondAttribute="centerX" id="sZv-k1-h6W"/>
+                                            <constraint firstItem="cdD-Vf-FgR" firstAttribute="centerY" secondItem="0Bo-Id-lG7" secondAttribute="centerY" id="z69-41-PeJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ZCV-jw-1KI" firstAttribute="height" secondItem="RzO-KO-OrY" secondAttribute="height" multiplier="0.5" constant="19" id="8O3-Vr-06h"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8O3-Vr-06h"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RzO-KO-OrY" secondAttribute="bottom" id="400-eo-HqN"/>
+                            <constraint firstItem="RzO-KO-OrY" firstAttribute="top" secondItem="TaK-DC-dYq" secondAttribute="top" id="c3W-6d-ymA"/>
+                            <constraint firstItem="RzO-KO-OrY" firstAttribute="leading" secondItem="OHw-bB-i5B" secondAttribute="leading" id="eLx-xx-rdg"/>
+                            <constraint firstItem="TaK-DC-dYq" firstAttribute="trailing" secondItem="RzO-KO-OrY" secondAttribute="trailing" id="qBS-pe-d53"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TaK-DC-dYq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xub-cW-m96"/>
+                    <connections>
+                        <outlet property="thumbImageSwitchA" destination="Kky-Q8-9Qp" id="Fla-Ip-BNe"/>
+                        <outlet property="thumbImageSwitchB" destination="bCE-gj-V4Z" id="l7x-D9-oat"/>
+                        <outlet property="thumbImageSwitchC" destination="Kqs-PJ-FY1" id="5uS-bM-JaT"/>
+                        <outlet property="thumbImageSwitchD" destination="cdD-Vf-FgR" id="BaG-YZ-gtn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="329-xI-mhF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1925" y="154"/>
+        </scene>
+        <!--ModeB Switches View Controller-->
+        <scene sceneID="h7a-VM-ECt">
+            <objects>
+                <viewController id="f6v-qZ-Cg9" customClass="ModeBSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Zl-0v-3I6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sO7-gO-7X8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebo-WP-QpI">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cRs-mf-ThH" customClass="YapModeSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="UaU-MI-jud"/>
+                                                    <constraint firstAttribute="height" constant="90" id="yho-dB-7CC"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96765881779999996" green="0.82767272000000003" blue="0.81960445640000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="cRs-mf-ThH" firstAttribute="centerX" secondItem="ebo-WP-QpI" secondAttribute="centerX" id="iSK-mS-mRb"/>
+                                            <constraint firstItem="cRs-mf-ThH" firstAttribute="centerY" secondItem="ebo-WP-QpI" secondAttribute="centerY" id="zX4-1a-080"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kok-dO-mFV">
+                                        <rect key="frame" x="0.0" y="404" width="414" height="404"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XzM-6L-15f" customClass="YapModeSwitch" customModule="Switches">
+                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="QrN-FG-3lI"/>
+                                                    <constraint firstAttribute="height" constant="90" id="pR9-mT-m43"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="XzM-6L-15f" firstAttribute="centerX" secondItem="Kok-dO-mFV" secondAttribute="centerX" id="bND-OD-gsn"/>
+                                            <constraint firstItem="XzM-6L-15f" firstAttribute="centerY" secondItem="Kok-dO-mFV" secondAttribute="centerY" id="x8X-Ji-dqp"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ebo-WP-QpI" firstAttribute="height" secondItem="sO7-gO-7X8" secondAttribute="height" multiplier="0.5" constant="19" id="Dl3-c1-z0k"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Dl3-c1-z0k"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sO7-gO-7X8" firstAttribute="leading" secondItem="9Zl-0v-3I6" secondAttribute="leading" id="LV1-n9-2ap"/>
+                            <constraint firstItem="naD-Dp-ycr" firstAttribute="trailing" secondItem="sO7-gO-7X8" secondAttribute="trailing" id="cAp-xA-y3z"/>
+                            <constraint firstItem="sO7-gO-7X8" firstAttribute="top" secondItem="9Zl-0v-3I6" secondAttribute="top" id="nbp-j4-7kr"/>
+                            <constraint firstAttribute="bottom" secondItem="sO7-gO-7X8" secondAttribute="bottom" id="tys-wf-rIn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="naD-Dp-ycr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dlJ-p8-L8u"/>
+                    <connections>
+                        <outlet property="modeSwitchStyleA" destination="cRs-mf-ThH" id="veP-mt-ZWo"/>
+                        <outlet property="modeSwitchStyleB" destination="XzM-6L-15f" id="OCo-AY-u66"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zUU-TX-xVs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="-560"/>
+        </scene>
+    </scenes>
+</document>
