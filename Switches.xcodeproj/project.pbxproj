@@ -276,9 +276,9 @@
 		E30C492124FAE76F0049D5C3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E30C492424FAE76F0049D5C3 /* CollectionViewCell */,
 				E30C492224FAE76F0049D5C3 /* SmileyViewController.swift */,
 				E30C492324FAE76F0049D5C3 /* ViewController.swift */,
-				E30C492424FAE76F0049D5C3 /* CollectionViewCell */,
 				E30C492624FAE76F0049D5C3 /* ModeSwitchesViewController.swift */,
 				E30C492724FAE76F0049D5C3 /* GradientSwitchesViewController.swift */,
 				E30C492824FAE76F0049D5C3 /* RandomViewController.swift */,

@@ -62,10 +62,8 @@ public class JDNavigationBar: UINavigationBar {
 
         barStyle = .black
         isTranslucent = true
-        tintColor = .white
-        backgroundColor = .clear
+        
         changeColor(color)
-        shadowLayer.backgroundColor = UIColor.green.cgColor
         DispatchQueue.main.async {
             
             if #available(iOS 13.0, *) {
