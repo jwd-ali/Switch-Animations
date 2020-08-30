@@ -31,5 +31,4 @@ From time to time I browse Dribbble to get inspiration from UI/UX designers. You
 </p>
 
 If you wanted to implement any of these designs it would be a poor choice to subclass `UISwitch` as you can hardly customize the colours — aside from the on/off tint.
-So I thought I would try to re-engineer the UISwitch so that I would have complete control over each aspect, making it easy to style in the future
-
+So I thought I would try to re-engineer the UISwitch so that I would have complete control over each aspect, making it easy to style in the future.Turns out its actually pretty easy (and a lot of fun!) to build these control elements from scratch. I even went so far as to add the ability to set on/off text or images. For those who don’t know, UISwitch has onImage and offImage which when set don’t do anything anymore.
