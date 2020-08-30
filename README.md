@@ -1,5 +1,5 @@
 <img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
-<p><h1 align="left">Switches</h1></p>
+# Switches
 > An animate switch collection
 
 
