@@ -51,4 +51,25 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 |YapFullStretchSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-25.gif" style="height:200;width:auto">|
 |YapSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-26.gif" style="height:200;width:auto">|
 
+## Requirements
 
+- iOS 10.0+ / Mac OS X 10.9+ / watchOS 2.0+ / tvOS 9.0+
+- Xcode 8.0+
+
+## Installation
+
+### [CocoaPods](http://cocoapods.org)
+
+To integrate **Switches Animations** into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+use_frameworks!
+
+pod 'Switches'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
