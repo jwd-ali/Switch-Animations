@@ -79,3 +79,10 @@ If you prefer not to use a dependency manager, you can integrate Switches Animat
 
 - Add Switches folder into your project
   
+### [Carthage](http://github.com/Carthage/Carthage)
+
+To integrate `Switches Animations` into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "jwd-ali/Switch-Animations"
+```
