@@ -1,4 +1,4 @@
-<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
+<img src="https://github.com/jwd-ali/Switches/blob/master/SwitchesDemo/Resources/Assets.xcassets/switch-animation-post.imageset/switch-animation-post.jpg">
 <img align="right" src="https://github.com/jwd-ali/Switches/blob/master/images/Screen%20Recording%202020-08-31%20at%203.39.54%20PM.gif"  height = "580"/>
 # Switches
 > An animate switch collection
@@ -15,10 +15,7 @@
 
 ___
 
-<p align='center'>
-  <img src='https://github.com/jwd-ali/Switches/blob/master/SwitchesDemo/Resources/Assets.xcassets/switch-animation-post.imageset/switch-animation-post.jpg'>
-  
-</p>
+
 
 From time to time I browse Dribbble to get inspiration from UI/UX designers. You often see non-native control elements in these designs. Some, such as checkboxes, have no native counterpart in UIKit while others like switches are— except they’re nearly impossible to customize. You cannot even change the size of a UISwitch. What if you need to implement a completely custom designed switch for your app like this one
 <p align='center'>
