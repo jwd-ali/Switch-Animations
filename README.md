@@ -45,6 +45,6 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 |YapSmileSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2011284/switcher-ll.gif" style="height:200;width:auto">|https://dribbble.com/shots/2011284-Switcher-ll| 
 |YapLiquidSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2028065/switcher-lll.gif" style="height:200;width:auto">|https://dribbble.com/shots/2028065-Switcher-lll| 
 |YapSwitchSlim |<img src="https://static.dribbble.com/users/153131/screenshots/2158763/toggle.gif" style="height:200;width:auto">|https://dribbble.com/shots/2158763-simple-toggle| 
-|YapSwitchSlim |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/LikelyZigzagBluewhale-mobile.mp4" style="height:200;width:auto">|https://gfycat.com/likelyzigzagbluewhale| 
+|YapHalfStretchSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-23.gif" style="height:200;width:auto">|https://gfycat.com/likelyzigzagbluewhale| 
 
 
