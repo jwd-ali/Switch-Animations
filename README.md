@@ -37,6 +37,9 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 |Switcher|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:200;width:auto">|https://dribbble.com/shots/4148855-Switcher-XXXIII|  
 |SwitcherFullStrtech|<img src="https://static.dribbble.com/users/108183/screenshots/3844909/switcher_on_off.gif" style="height:200;width:auto">|https://dribbble.com/shots/3844909-On-Off|  
 |JDSwitch with `thumbRadiusPadding = 10` |<img src="https://static.dribbble.com/users/108183/screenshots/2346044/switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2346044-Switch-on-off|  
-|TKSmileSwitch|<img src="Images/smile.gif" style="height:200;width:auto">|222|  
+|YapDarkAndLightModeSwitch with attributes `thumbRadiusPadding = 8
+            thumbTintColor = #colorLiteral(red: 0.9683158994, green: 0.501380682, blue: 0.4961987734, alpha: 1)
+            offTintColor = .white
+            onTintColor = #colorLiteral(red: 0.6057969332, green: 0.6360527277, blue: 0.9815277457, alpha: 1)`|<img src="https://static.dribbble.com/users/301508/screenshots/2484722/daily_ui_day_15_on_off_switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2484722-Daily-Ui-Day-15-On-Off-Switch|  
 |TKLiquidSwitch|<img src="Images/liquid.gif" style="height:200;width:auto">|333|  
 
