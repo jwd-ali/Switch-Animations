@@ -29,3 +29,14 @@ So I thought I would try to re-engineer the UISwitch so that I would have comple
 So i take few of the Dribble switches Daily UI challenges as challenge and implemented them in this library.This library has cool and sophisticated animations,Designs and effects. Also, customizable properties can be tweaked behaviors and enhance your application UI cool. With this library, you can easily implement material design switch to your app.
 </p>
 
+> You can play with the attributes and can customise them according to your UI demands. Below are the few examples
+## Usage example
+
+|Class|Example|
+|---|---|
+|Switcher|<img src="https://dribbble.com/shots/4148855-Switcher-XXXIII" style="height:200;width:auto">|  
+|TKSimpleSwitch|<img src="Images/simple2.gif" style="height:200;width:auto">|  
+|TKExchangeSwitch|<img src="Images/exchange.gif" style="height:200;width:auto">|  
+|TKSmileSwitch|<img src="Images/smile.gif" style="height:200;width:auto">|  
+|TKLiquidSwitch|<img src="Images/liquid.gif" style="height:200;width:auto">|  
+
