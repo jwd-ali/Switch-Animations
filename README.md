@@ -38,5 +38,5 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 |SwitcherFullStrtech|<img src="https://static.dribbble.com/users/108183/screenshots/3844909/switcher_on_off.gif" style="height:200;width:auto">|https://dribbble.com/shots/3844909-On-Off|  
 |JDSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2346044/switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2346044-Switch-on-off|  
 |YapDarkAndLightModeSwitch |<img src="https://static.dribbble.com/users/301508/screenshots/2484722/daily_ui_day_15_on_off_switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2484722-Daily-Ui-Day-15-On-Off-Switch|  
-|TKLiquidSwitch|<img src="Images/liquid.gif" style="height:200;width:auto">|333|  
+|YapAnimatedSwitch|<img src="https://static.dribbble.com/users/45534/screenshots/2309834/5.gif" style="height:200;width:auto">|https://dribbble.com/shots/2309834-Yet-another-toggle-animation|  
 
