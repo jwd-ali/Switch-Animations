@@ -73,3 +73,9 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
+### Manually
+
+If you prefer not to use a dependency manager, you can integrate Switches Animations into your project manually.
+
+- Add Switches folder into your project
+  
