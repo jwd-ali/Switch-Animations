@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.0.2",
+  "iOS" : [
+    {
+      "name" : "Switches",
+      "hash" : "76e27d2ac2a328b3a1a6e2fc99ff1d6159a11e85e9f2f1921ce415617b0fda32",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}

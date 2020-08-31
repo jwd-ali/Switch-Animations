@@ -524,7 +524,8 @@ public enum shapeType {
     
     
 }
-
+////`Credit`: Robin
+//https://dribbble.com/shots/2603107-toggle-switch-micro-interaction
 //MARK:- YapGradientSwitch
 public enum GradientPosition {
     case vertical

@@ -1,0 +1,11 @@
+framework module Switches {
+  umbrella header "Switches.h"
+
+  export *
+  module * { export * }
+}
+
+module Switches.Swift {
+    header "Switches-Swift.h"
+    requires objc
+}

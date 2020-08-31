@@ -6,13 +6,45 @@
 	<dict>
 		<key>Switches.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
 		<key>SwitchesDemo.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E30C48B024FAE6930049D5C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E30C48B924FAE6930049D5C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E30C48E824FAE73F0049D5C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E30C48FD24FAE7420049D5C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E30C490824FAE7420049D5C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
