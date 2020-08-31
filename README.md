@@ -34,9 +34,9 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 
 |Class|Example|UI Challenge|
 |---|---|---|
-|Switcher()|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:200;width:auto">|https://dribbble.com/shots/4148855-Switcher-XXXIII|  
+|Switcher|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:200;width:auto">|https://dribbble.com/shots/4148855-Switcher-XXXIII|  
 |SwitcherFullStrtech|<img src="https://static.dribbble.com/users/108183/screenshots/3844909/switcher_on_off.gif" style="height:200;width:auto">|https://dribbble.com/shots/3844909-On-Off|  
-|TKExchangeSwitch|<img src="Images/exchange.gif" style="height:200;width:auto">|111|  
+|JDSwitch with `thumbRadiusPadding = 10` |<img src="https://static.dribbble.com/users/108183/screenshots/2346044/switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2346044-Switch-on-off|  
 |TKSmileSwitch|<img src="Images/smile.gif" style="height:200;width:auto">|222|  
 |TKLiquidSwitch|<img src="Images/liquid.gif" style="height:200;width:auto">|333|  
 
