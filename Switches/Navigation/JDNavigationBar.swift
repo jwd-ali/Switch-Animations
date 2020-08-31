@@ -62,6 +62,7 @@ public class JDNavigationBar: UINavigationBar {
 
         barStyle = .black
         isTranslucent = true
+        tintColor = .white
         
         changeColor(color)
         DispatchQueue.main.async {

@@ -1,5 +1,5 @@
 //
-//  TKBaseSwitcher.swift
+//  YapBaseSwitch.swift
 //  testi
 //
 //  Created by Jawad Ali on 13/08/2020.
@@ -7,15 +7,12 @@
 //
 
 //// `Design by`: Oleg Frolov
-// https://dribbble.com/shots/2028065-Switcher-lll?list=searches&tag=ui_animation&offset=2
+// https://dribbble.com/shots/2028065-Switcher-lll
 
 import UIKit
 
-public typealias TKSwitchValueChangeHook  = (_ value: Bool) -> Void
-
-// 自定义 Switch 基类
 @IBDesignable
-open class TKBaseSwitch: BaseControl {
+open class YapBaseSwitch: BaseControl {
 
     // MARK: - Property
    
@@ -72,7 +69,7 @@ open class TKBaseSwitch: BaseControl {
     }
 
     internal func setUpView() {
-        let tap = UITapGestureRecognizer(target: self, action: #selector(TKBaseSwitch.toggleValue))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(YapBaseSwitch.toggleValue))
         self.addGestureRecognizer(tap)
 
         for view in self.subviews {

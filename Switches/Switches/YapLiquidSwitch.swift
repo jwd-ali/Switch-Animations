@@ -12,7 +12,7 @@ import UIKit
 //https://dribbble.com/shots/2028065-Switcher-lll
 
 @IBDesignable
-open class TKLiquidSwitch: TKBaseSwitch {
+open class YapLiquidSwitch: YapBaseSwitch {
 
     private var bubbleLayer = CAShapeLayer()
     private var lineLayer   = CAShapeLayer()
@@ -77,7 +77,7 @@ open class TKLiquidSwitch: TKBaseSwitch {
 }
 
 // Getter
-extension TKLiquidSwitch {
+extension YapLiquidSwitch {
 
     var bubbleSize: CGSize {
         let lineH = 20 * sizeScale

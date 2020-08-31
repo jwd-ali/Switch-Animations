@@ -32,7 +32,7 @@ class JellySwitchesViewController: UIViewController {
             
         }
     }
-    @IBOutlet weak var jellySwitch: TKLiquidSwitch!
+    @IBOutlet weak var jellySwitch: YapLiquidSwitch!
  
     override func viewDidLoad() {
         super.viewDidLoad()

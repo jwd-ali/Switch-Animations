@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R2E-i2-bWJ">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -29,78 +28,78 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="QiJ-Cl-cV6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdl-Op-475">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="59.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="37.5"/>
                                         <state key="normal" title="StretchSwitch"/>
                                         <connections>
                                             <segue destination="msr-dh-jeU" kind="show" identifier="Transition Switches" id="fky-Hn-ugj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpg-9P-E9I">
-                                        <rect key="frame" x="0.0" y="79.5" width="414" height="59.5"/>
+                                        <rect key="frame" x="0.0" y="57.5" width="600" height="37.5"/>
                                         <state key="normal" title="Loading Switch"/>
                                         <connections>
                                             <segue destination="0tJ-xO-3V2" kind="show" identifier="Loading Switches" id="ARh-4v-kG7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcQ-t9-0KZ">
-                                        <rect key="frame" x="0.0" y="159" width="414" height="59"/>
+                                        <rect key="frame" x="0.0" y="115" width="600" height="38"/>
                                         <state key="normal" title="Jelly Switch"/>
                                         <connections>
                                             <segue destination="CZ6-D7-rrH" kind="show" identifier="Jelly Switches" id="iLD-7x-ZuU"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0P-nI-Rji">
-                                        <rect key="frame" x="0.0" y="238" width="414" height="59.5"/>
+                                        <rect key="frame" x="0.0" y="173" width="600" height="37.5"/>
                                         <state key="normal" title="Animated Switches"/>
                                         <connections>
                                             <segue destination="Kdc-Y5-o5B" kind="show" identifier="Animated Switches" id="We7-gJ-9bD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p33-0b-o6h">
-                                        <rect key="frame" x="0.0" y="317.5" width="414" height="59.5"/>
+                                        <rect key="frame" x="0.0" y="230.5" width="600" height="37.5"/>
                                         <state key="normal" title="Mode Switches"/>
                                         <connections>
                                             <segue destination="6YG-bB-KA9" kind="show" identifier="Mode Switches" id="9HE-dn-DT8"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ee4-rr-wdl">
-                                        <rect key="frame" x="0.0" y="397" width="414" height="59.5"/>
+                                        <rect key="frame" x="0.0" y="288" width="600" height="37.5"/>
                                         <state key="normal" title="Mode B Switches"/>
                                         <connections>
                                             <segue destination="f6v-qZ-Cg9" kind="show" identifier="Cool Switches" id="ZyD-Mg-4yD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEd-Hk-pQv">
-                                        <rect key="frame" x="0.0" y="476.5" width="414" height="59.5"/>
+                                        <rect key="frame" x="0.0" y="345.5" width="600" height="37.5"/>
                                         <state key="normal" title="Gradient Switched"/>
                                         <connections>
                                             <segue destination="N9u-BH-Lxn" kind="show" identifier="Gradient Switches" id="sXy-Z9-PIW"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biK-Gx-8qE">
-                                        <rect key="frame" x="0.0" y="556" width="414" height="59"/>
+                                        <rect key="frame" x="0.0" y="403" width="600" height="38"/>
                                         <state key="normal" title="Thumbnail Image switches"/>
                                         <connections>
                                             <segue destination="JgT-os-7Vh" kind="show" identifier="Cover Switches" id="emY-Fs-Xyi"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6R-D3-Odi">
-                                        <rect key="frame" x="0.0" y="635" width="414" height="59.5"/>
+                                        <rect key="frame" x="0.0" y="461" width="600" height="37.5"/>
                                         <state key="normal" title="Smiley Switch"/>
                                         <connections>
                                             <segue destination="vZZ-ww-baC" kind="show" identifier="Smiley Switches" id="HtF-dB-CBH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SpQ-hP-UYN">
-                                        <rect key="frame" x="0.0" y="714.5" width="414" height="59.5"/>
+                                        <rect key="frame" x="0.0" y="518.5" width="600" height="37.5"/>
                                         <state key="normal" title="Random Switch"/>
                                         <connections>
                                             <segue destination="led-Vd-Zdy" kind="show" identifier="Random Switches" id="NeJ-Z0-1Qa"/>
@@ -109,7 +108,7 @@
                                 </subviews>
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYn-Kf-Og9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="zie-96-QPc">
                                     <size key="itemSize" width="200" height="300"/>
@@ -233,18 +232,18 @@
         <scene sceneID="gSB-KN-BKE">
             <objects>
                 <viewController id="led-Vd-Zdy" customClass="RandomViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XJx-kg-sad">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="XJx-kg-sad">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UKg-y0-f5z">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MZe-sd-IVS">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="79.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DDZ-Rr-uIW" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="122" y="20.5" width="170" height="70"/>
+                                                <rect key="frame" x="215" y="4.5" width="170" height="70"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="170" id="nXc-bA-caO"/>
@@ -259,10 +258,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UCi-kn-BnM">
-                                        <rect key="frame" x="0.0" y="110.5" width="414" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="79.5" width="600" height="79.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="enw-b5-cZI" customClass="YapSwitchSlim" customModule="Switches">
-                                                <rect key="frame" x="122" y="20.5" width="170" height="70"/>
+                                                <rect key="frame" x="215" y="4.5" width="170" height="70"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="eAD-pS-4Ex"/>
@@ -277,10 +276,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UQ5-3g-ohu">
-                                        <rect key="frame" x="0.0" y="221" width="414" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="159" width="600" height="79.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdo-ed-3oT" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="122" y="20.5" width="170" height="70"/>
+                                                <rect key="frame" x="215" y="4.5" width="170" height="70"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="170" id="97v-XE-NF4"/>
@@ -295,10 +294,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DOm-a2-35X">
-                                        <rect key="frame" x="0.0" y="331.5" width="414" height="111"/>
+                                        <rect key="frame" x="0.0" y="238.5" width="600" height="79"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZa-QV-WTF" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="122" y="20.5" width="170" height="70"/>
+                                                <rect key="frame" x="215" y="4.5" width="170" height="70"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="4TC-0D-O5l"/>
@@ -313,10 +312,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XQN-RJ-apl">
-                                        <rect key="frame" x="0.0" y="442.5" width="414" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="317.5" width="600" height="79.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MP0-tP-0kc" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="122" y="20" width="170" height="70"/>
+                                                <rect key="frame" x="215" y="5" width="170" height="70"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="170" id="XsH-3t-GBr"/>
@@ -331,10 +330,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Fn-mb-rLP">
-                                        <rect key="frame" x="0.0" y="553" width="414" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="397" width="600" height="79.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LFM-cg-kQq" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="122" y="20" width="170" height="70"/>
+                                                <rect key="frame" x="215" y="5" width="170" height="70"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="170" id="164-cH-BYq"/>
@@ -349,10 +348,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8lc-2g-Ilp">
-                                        <rect key="frame" x="0.0" y="663.5" width="414" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="476.5" width="600" height="79.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eab-K0-e9r">
-                                                <rect key="frame" x="30" y="20" width="360" height="70"/>
+                                                <rect key="frame" x="30" y="5" width="360" height="70"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9w-79-kqv" customClass="YapSwitch" customModule="Switches">
                                                         <rect key="frame" x="0.0" y="0.0" width="170" height="70"/>
@@ -412,18 +411,18 @@
         <scene sceneID="LVu-A4-L5J">
             <objects>
                 <viewController id="vZZ-ww-baC" customClass="SmileyViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wSU-E6-hVP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="wSU-E6-hVP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qrJ-P3-Dh2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ej2-w0-gTz">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="269.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="185.5"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="53C-U3-VBq" customClass="TKSmileSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="89.5" width="200" height="90"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="53C-U3-VBq" customClass="YapSmileSwitch" customModule="Switches">
+                                                <rect key="frame" x="200" y="47.5" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="7BP-yy-dds"/>
@@ -438,10 +437,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tv7-1A-Yl4">
-                                        <rect key="frame" x="0.0" y="269.5" width="414" height="269"/>
+                                        <rect key="frame" x="0.0" y="185.5" width="600" height="185"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="elH-di-7Ou" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="89.5" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="47.5" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="1hr-Xs-lVr"/>
@@ -456,10 +455,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbQ-06-Qia">
-                                        <rect key="frame" x="0.0" y="538.5" width="414" height="269.5"/>
+                                        <rect key="frame" x="0.0" y="370.5" width="600" height="185.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tH7-CM-wkb" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="90" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="48" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="WUD-4T-EM6"/>
@@ -507,18 +506,18 @@
         <scene sceneID="SnO-4G-78V">
             <objects>
                 <viewController id="CZ6-D7-rrH" customClass="JellySwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7GZ-MQ-aAL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="7GZ-MQ-aAL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="CNk-Fp-DVu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5gJ-XI-cBh">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="185.5"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2H-dl-i8p" customClass="TKLiquidSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2H-dl-i8p" customClass="YapLiquidSwitch" customModule="Switches">
+                                                <rect key="frame" x="200" y="47.5" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="pAR-Cr-o5L"/>
@@ -526,7 +525,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iyn-7k-laB">
-                                                <rect key="frame" x="20" y="257" width="374" height="1"/>
+                                                <rect key="frame" x="20" y="184.5" width="560" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="PgP-oG-hNe"/>
@@ -543,10 +542,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hgx-cV-WaC">
-                                        <rect key="frame" x="0.0" y="258" width="414" height="258"/>
+                                        <rect key="frame" x="0.0" y="185.5" width="600" height="185"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vZ6-21-MG8" customClass="YapFullStretchSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="47.5" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="9NC-Z5-bSG"/>
@@ -554,7 +553,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x3a-0M-UdW">
-                                                <rect key="frame" x="20" y="257" width="374" height="1"/>
+                                                <rect key="frame" x="20" y="184" width="560" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="eiN-8N-G8V"/>
@@ -571,10 +570,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJo-0w-Xmg">
-                                        <rect key="frame" x="0.0" y="516" width="414" height="258"/>
+                                        <rect key="frame" x="0.0" y="370.5" width="600" height="185.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZtP-tJ-fVv" customClass="YapHalfStretchSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="48" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="dwF-p2-WDf"/>
@@ -623,18 +622,18 @@
         <scene sceneID="sxv-Tc-SzQ">
             <objects>
                 <viewController id="6YG-bB-KA9" customClass="ModeSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hDJ-4t-8Ap">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="hDJ-4t-8Ap">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nMC-op-WmH">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uyR-3P-Pz7">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="278"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MME-76-z7n" customClass="YapDarkAndLightModeSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="94" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="jT4-Ao-MKh"/>
@@ -649,10 +648,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSd-ld-gS8">
-                                        <rect key="frame" x="0.0" y="404" width="414" height="404"/>
+                                        <rect key="frame" x="0.0" y="278" width="600" height="278"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6aU-9y-2S7" customClass="YapDarkAndLightModeSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="94" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="RtD-lI-zeY"/>
@@ -700,18 +699,18 @@
         <scene sceneID="6fx-VJ-pdc">
             <objects>
                 <viewController id="0tJ-xO-3V2" customClass="LoadingSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bfY-1v-l4g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="bfY-1v-l4g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7Ez-sf-WjE">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w1x-u1-y2E">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="185.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfu-gP-bXb" customClass="SDSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="47.5" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="Qzj-Av-swK"/>
@@ -719,7 +718,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grJ-7N-lag">
-                                                <rect key="frame" x="20" y="257" width="374" height="1"/>
+                                                <rect key="frame" x="20" y="184.5" width="560" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="Rzv-Mg-NHg"/>
@@ -736,10 +735,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sp5-4y-cio">
-                                        <rect key="frame" x="0.0" y="258" width="414" height="258"/>
+                                        <rect key="frame" x="0.0" y="185.5" width="600" height="185"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o1d-tc-Nf8" customClass="SDSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="47.5" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="Ijg-f4-oFc"/>
@@ -747,7 +746,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fqp-dZ-i2Q">
-                                                <rect key="frame" x="20" y="257" width="374" height="1"/>
+                                                <rect key="frame" x="20" y="184" width="560" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="gZa-Zo-c23"/>
@@ -764,10 +763,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NmU-kT-6yf">
-                                        <rect key="frame" x="0.0" y="516" width="414" height="258"/>
+                                        <rect key="frame" x="0.0" y="370.5" width="600" height="185.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eLz-7U-U48" customClass="YapFullTextSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="48" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="CWm-b7-EqQ"/>
@@ -816,18 +815,18 @@
         <scene sceneID="NGA-qW-909">
             <objects>
                 <viewController id="N9u-BH-Lxn" customClass="GradientSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VAf-at-y7Q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="VAf-at-y7Q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zaV-bq-4wH">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uuK-qP-nRD">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="278"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vNc-wB-lRN" customClass="YapGradientSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="94" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="P7j-3O-a9W"/>
@@ -850,10 +849,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQ7-wT-6FY">
-                                        <rect key="frame" x="0.0" y="404" width="414" height="404"/>
+                                        <rect key="frame" x="0.0" y="278" width="600" height="278"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dcn-rf-Azv" customClass="YapGradientSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="94" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="cat-hg-m5p"/>
@@ -861,7 +860,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horizantal Gradient Just on Side" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4f-yT-5iE">
-                                                <rect key="frame" x="34" y="24" width="346" height="30"/>
+                                                <rect key="frame" x="127" y="24" width="346" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -909,18 +908,18 @@
         <scene sceneID="jow-8h-AJS">
             <objects>
                 <viewController id="msr-dh-jeU" customClass="SwiftyViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vli-JM-sSi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="vli-JM-sSi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="11T-i6-tmL">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgS-29-7sB">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="185.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RkN-A1-eFU">
-                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="47.5" width="200" height="90"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sqO-d9-IPC" customClass="Switcher" customModule="Switches">
                                                         <rect key="frame" x="0.0" y="0.0" width="200" height="90"/>
@@ -947,10 +946,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXs-bV-Wdi">
-                                        <rect key="frame" x="0.0" y="258" width="414" height="258"/>
+                                        <rect key="frame" x="0.0" y="185.5" width="600" height="185"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wss-h2-53e">
-                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="47.5" width="200" height="90"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LI0-6L-KOx" customClass="SwitcherFullStrtech" customModule="Switches">
                                                         <rect key="frame" x="0.0" y="0.0" width="200" height="90"/>
@@ -977,10 +976,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="onb-Ym-ov4">
-                                        <rect key="frame" x="0.0" y="516" width="414" height="258"/>
+                                        <rect key="frame" x="0.0" y="370.5" width="600" height="185.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsY-n1-F3I">
-                                                <rect key="frame" x="107" y="84" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="48" width="200" height="90"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wE4-wj-OI7" customClass="JDSwitch" customModule="Switches">
                                                         <rect key="frame" x="0.0" y="0.0" width="200" height="90"/>
@@ -1041,18 +1040,18 @@
         <scene sceneID="AVl-zk-kX4">
             <objects>
                 <viewController id="Kdc-Y5-o5B" customClass="AnimatedSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Sch-1L-Qsu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="Sch-1L-Qsu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uoB-oY-fBe">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j26-ag-Gar">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="278"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gyv-kr-PSV" customClass="YapAnimatedSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="94" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="4rk-hu-JBP"/>
@@ -1067,10 +1066,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kQ8-Qg-aHK">
-                                        <rect key="frame" x="0.0" y="404" width="414" height="404"/>
+                                        <rect key="frame" x="0.0" y="278" width="600" height="278"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TFg-00-gNv" customClass="YapAnimatedSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="94" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="Nq2-tV-kHZ"/>
@@ -1118,18 +1117,18 @@
         <scene sceneID="BhF-Ee-u2G">
             <objects>
                 <viewController id="JgT-os-7Vh" customClass="ThumbImageSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OHw-bB-i5B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="OHw-bB-i5B">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="RzO-KO-OrY">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZCV-jw-1KI">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="202"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="139"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVl-zd-Rbz">
-                                                <rect key="frame" x="107" y="46" width="200" height="110"/>
+                                                <rect key="frame" x="200" y="14.5" width="200" height="110"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kky-Q8-9Qp" customClass="YapSwitchSlim" customModule="Switches">
                                                         <rect key="frame" x="0.0" y="0.0" width="200" height="110"/>
@@ -1156,10 +1155,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4E6-vm-Uhs">
-                                        <rect key="frame" x="0.0" y="202" width="414" height="202"/>
+                                        <rect key="frame" x="0.0" y="139" width="600" height="139"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCE-gj-V4Z" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="56" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="24.5" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="TCB-0f-XbK"/>
@@ -1174,10 +1173,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iTG-KI-vtr">
-                                        <rect key="frame" x="0.0" y="404" width="414" height="202"/>
+                                        <rect key="frame" x="0.0" y="278" width="600" height="139"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kqs-PJ-FY1" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="56" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="24.5" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="ns5-oc-Agm"/>
@@ -1192,10 +1191,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Bo-Id-lG7">
-                                        <rect key="frame" x="0.0" y="606" width="414" height="202"/>
+                                        <rect key="frame" x="0.0" y="417" width="600" height="139"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdD-Vf-FgR" customClass="YapSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="56" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="24.5" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="FVn-SY-5Hw"/>
@@ -1245,18 +1244,18 @@
         <scene sceneID="h7a-VM-ECt">
             <objects>
                 <viewController id="f6v-qZ-Cg9" customClass="ModeBSwitchesViewController" customModule="SwitchesDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9Zl-0v-3I6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="9Zl-0v-3I6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sO7-gO-7X8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebo-WP-QpI">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="404"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="278"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cRs-mf-ThH" customClass="YapModeSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="94" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="UaU-MI-jud"/>
@@ -1271,10 +1270,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kok-dO-mFV">
-                                        <rect key="frame" x="0.0" y="404" width="414" height="404"/>
+                                        <rect key="frame" x="0.0" y="278" width="600" height="278"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XzM-6L-15f" customClass="YapModeSwitch" customModule="Switches">
-                                                <rect key="frame" x="107" y="157" width="200" height="90"/>
+                                                <rect key="frame" x="200" y="94" width="200" height="90"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="QrN-FG-3lI"/>

@@ -11,7 +11,7 @@ import UIKit
 // Dedign by Oleg Frolov
 //https://dribbble.com/shots/2011284-Switcher-ll
 
-open class TKSmileSwitch: TKBaseSwitch {
+open class YapSmileSwitch: YapBaseSwitch {
 
     // MARK: - Poperty
     private var smileFace: TKSmileFaceView?

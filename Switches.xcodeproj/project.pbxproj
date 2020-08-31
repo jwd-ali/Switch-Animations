@@ -13,14 +13,14 @@
 		E30C48D924FAE6BB0049D5C3 /* JDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48CC24FAE6BB0049D5C3 /* JDNavigationController.swift */; };
 		E30C48DA24FAE6BB0049D5C3 /* JDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48CD24FAE6BB0049D5C3 /* JDNavigationBar.swift */; };
 		E30C48DB24FAE6BB0049D5C3 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48CF24FAE6BB0049D5C3 /* Switcher.swift */; };
-		E30C48DC24FAE6BB0049D5C3 /* TKLiquidSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D024FAE6BB0049D5C3 /* TKLiquidSwitch.swift */; };
+		E30C48DC24FAE6BB0049D5C3 /* YapLiquidSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D024FAE6BB0049D5C3 /* YapLiquidSwitch.swift */; };
 		E30C48DD24FAE6BB0049D5C3 /* JDSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D124FAE6BB0049D5C3 /* JDSwitch.swift */; };
 		E30C48DE24FAE6BB0049D5C3 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D224FAE6BB0049D5C3 /* UIImage+Extension.swift */; };
-		E30C48DF24FAE6BB0049D5C3 /* TKBaseSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D324FAE6BB0049D5C3 /* TKBaseSwitcher.swift */; };
+		E30C48DF24FAE6BB0049D5C3 /* YapBaseSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D324FAE6BB0049D5C3 /* YapBaseSwitch.swift */; };
 		E30C48E024FAE6BB0049D5C3 /* SDSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D424FAE6BB0049D5C3 /* SDSwitch.swift */; };
 		E30C48E124FAE6BB0049D5C3 /* YapSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D524FAE6BB0049D5C3 /* YapSwitch.swift */; };
 		E30C48E224FAE6BB0049D5C3 /* BaseControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D624FAE6BB0049D5C3 /* BaseControl.swift */; };
-		E30C48E324FAE6BB0049D5C3 /* TKSmileSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D724FAE6BB0049D5C3 /* TKSmileSwitch.swift */; };
+		E30C48E324FAE6BB0049D5C3 /* YapSmileSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D724FAE6BB0049D5C3 /* YapSmileSwitch.swift */; };
 		E30C48E424FAE6BB0049D5C3 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48D824FAE6BB0049D5C3 /* CALayer+Extension.swift */; };
 		E30C490324FAE7420049D5C3 /* SwitchesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C490224FAE7420049D5C3 /* SwitchesDemoTests.swift */; };
 		E30C490E24FAE7420049D5C3 /* SwitchesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C490D24FAE7420049D5C3 /* SwitchesDemoUITests.swift */; };
@@ -78,14 +78,14 @@
 		E30C48CC24FAE6BB0049D5C3 /* JDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDNavigationController.swift; sourceTree = "<group>"; };
 		E30C48CD24FAE6BB0049D5C3 /* JDNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDNavigationBar.swift; sourceTree = "<group>"; };
 		E30C48CF24FAE6BB0049D5C3 /* Switcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
-		E30C48D024FAE6BB0049D5C3 /* TKLiquidSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKLiquidSwitch.swift; sourceTree = "<group>"; };
+		E30C48D024FAE6BB0049D5C3 /* YapLiquidSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapLiquidSwitch.swift; sourceTree = "<group>"; };
 		E30C48D124FAE6BB0049D5C3 /* JDSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDSwitch.swift; sourceTree = "<group>"; };
 		E30C48D224FAE6BB0049D5C3 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		E30C48D324FAE6BB0049D5C3 /* TKBaseSwitcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKBaseSwitcher.swift; sourceTree = "<group>"; };
+		E30C48D324FAE6BB0049D5C3 /* YapBaseSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapBaseSwitch.swift; sourceTree = "<group>"; };
 		E30C48D424FAE6BB0049D5C3 /* SDSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDSwitch.swift; sourceTree = "<group>"; };
 		E30C48D524FAE6BB0049D5C3 /* YapSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapSwitch.swift; sourceTree = "<group>"; };
 		E30C48D624FAE6BB0049D5C3 /* BaseControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseControl.swift; sourceTree = "<group>"; };
-		E30C48D724FAE6BB0049D5C3 /* TKSmileSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKSmileSwitch.swift; sourceTree = "<group>"; };
+		E30C48D724FAE6BB0049D5C3 /* YapSmileSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapSmileSwitch.swift; sourceTree = "<group>"; };
 		E30C48D824FAE6BB0049D5C3 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		E30C48E924FAE73F0049D5C3 /* SwitchesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30C48F924FAE7420049D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -212,14 +212,14 @@
 			isa = PBXGroup;
 			children = (
 				E30C48CF24FAE6BB0049D5C3 /* Switcher.swift */,
-				E30C48D024FAE6BB0049D5C3 /* TKLiquidSwitch.swift */,
+				E30C48D024FAE6BB0049D5C3 /* YapLiquidSwitch.swift */,
 				E30C48D124FAE6BB0049D5C3 /* JDSwitch.swift */,
 				E30C48D224FAE6BB0049D5C3 /* UIImage+Extension.swift */,
-				E30C48D324FAE6BB0049D5C3 /* TKBaseSwitcher.swift */,
+				E30C48D324FAE6BB0049D5C3 /* YapBaseSwitch.swift */,
 				E30C48D424FAE6BB0049D5C3 /* SDSwitch.swift */,
 				E30C48D524FAE6BB0049D5C3 /* YapSwitch.swift */,
 				E30C48D624FAE6BB0049D5C3 /* BaseControl.swift */,
-				E30C48D724FAE6BB0049D5C3 /* TKSmileSwitch.swift */,
+				E30C48D724FAE6BB0049D5C3 /* YapSmileSwitch.swift */,
 				E30C48D824FAE6BB0049D5C3 /* CALayer+Extension.swift */,
 			);
 			path = Switches;
@@ -517,16 +517,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E30C48DC24FAE6BB0049D5C3 /* TKLiquidSwitch.swift in Sources */,
+				E30C48DC24FAE6BB0049D5C3 /* YapLiquidSwitch.swift in Sources */,
 				E30C48D924FAE6BB0049D5C3 /* JDNavigationController.swift in Sources */,
 				E30C48E024FAE6BB0049D5C3 /* SDSwitch.swift in Sources */,
 				E30C48E124FAE6BB0049D5C3 /* YapSwitch.swift in Sources */,
 				E30C48E224FAE6BB0049D5C3 /* BaseControl.swift in Sources */,
-				E30C48DF24FAE6BB0049D5C3 /* TKBaseSwitcher.swift in Sources */,
+				E30C48DF24FAE6BB0049D5C3 /* YapBaseSwitch.swift in Sources */,
 				E30C48DD24FAE6BB0049D5C3 /* JDSwitch.swift in Sources */,
 				E30C48DE24FAE6BB0049D5C3 /* UIImage+Extension.swift in Sources */,
 				E30C48DA24FAE6BB0049D5C3 /* JDNavigationBar.swift in Sources */,
-				E30C48E324FAE6BB0049D5C3 /* TKSmileSwitch.swift in Sources */,
+				E30C48E324FAE6BB0049D5C3 /* YapSmileSwitch.swift in Sources */,
 				E30C48DB24FAE6BB0049D5C3 /* Switcher.swift in Sources */,
 				E30C48E424FAE6BB0049D5C3 /* CALayer+Extension.swift in Sources */,
 			);

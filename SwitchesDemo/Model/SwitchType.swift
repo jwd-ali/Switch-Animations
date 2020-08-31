@@ -37,7 +37,7 @@ extension SwitchType {
             display.thumbRadiusPadding = 5
             return display
         case .jelly:
-            return TKLiquidSwitch()
+            return YapLiquidSwitch()
         case .animated:
             let animatedStyleA = YapAnimatedSwitch()
             animatedStyleA.thumbRadiusPadding = 6
@@ -72,7 +72,7 @@ extension SwitchType {
             return gradientSwitchVertical
             
         case .smiley:
-            return TKSmileSwitch()
+            return YapSmileSwitch()
         case .thumbImage:
             let  thumbImageSwitchC = YapSwitch()
             thumbImageSwitchC.onThumbImage = #imageLiteral(resourceName: "right")

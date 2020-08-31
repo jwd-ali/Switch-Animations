@@ -497,7 +497,7 @@ public enum shapeType {
         offContentLayer = imageLayer
     }
 }
-
+//https://dribbble.com/shots/2158763-simple-toggle
 @IBDesignable public class YapSwitchSlim: YapSwitch {
     
     public var slimTrack: CGFloat = 0 {
