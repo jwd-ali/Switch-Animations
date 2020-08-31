@@ -33,7 +33,7 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 ## Usage example
 
 |Class|Example|Credit|
-|---|---|
+|---|---|---|
 |Switcher()|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:200;width:auto">|https://dribbble.com/shots/4148855-Switcher-XXXIII|  
 |SwitcherFullStrtech|<img src="https://static.dribbble.com/users/108183/screenshots/3844909/switcher_on_off.gif" style="height:200;width:auto">|https://dribbble.com/shots/3844909-On-Off|  
 |TKExchangeSwitch|<img src="Images/exchange.gif" style="height:200;width:auto">|111|  
