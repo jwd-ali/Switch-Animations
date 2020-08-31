@@ -34,7 +34,7 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 
 |Class|Example|
 |---|---|
-|Switcher|<img src="https://dribbble.com/shots/4148855-Switcher-XXXIII" style="height:200;width:auto">|  
+|Switcher|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:200;width:auto">|  
 |TKSimpleSwitch|<img src="Images/simple2.gif" style="height:200;width:auto">|  
 |TKExchangeSwitch|<img src="Images/exchange.gif" style="height:200;width:auto">|  
 |TKSmileSwitch|<img src="Images/smile.gif" style="height:200;width:auto">|  
