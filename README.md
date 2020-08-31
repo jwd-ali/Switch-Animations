@@ -48,6 +48,6 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 |YapGradientSwitch |<img src="https://static.dribbble.com/users/1020708/screenshots/2603107/015_dribbble.gif" style="height:200;width:auto"> Dribble UI Challenge:https://dribbble.com/shots/2603107-toggle-switch-micro-interaction| 
 |YapHalfStretchSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-23.gif" style="height:200;width:auto">| 
 |YapSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-24.gif" style="height:200;width:auto">|
-
+|YapFullStretchSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-25.gif" style="height:200;width:auto">|
 
 
