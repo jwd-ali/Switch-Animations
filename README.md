@@ -39,5 +39,7 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 |SDSwitch|<img src="https://static.dribbble.com/users/106600/screenshots/3545882/bankin-switch-servercall_2x.gif" style="height:200;width:auto">|https://dribbble.com/shots/3545882-Switch-with-server-calls|  
 |YapDarkAndLightModeSwitch |<img src="https://static.dribbble.com/users/301508/screenshots/2484722/daily_ui_day_15_on_off_switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2484722-Daily-Ui-Day-15-On-Off-Switch|  
 |YapAnimatedSwitch|<img src="https://static.dribbble.com/users/45534/screenshots/2309834/5.gif" style="height:200;width:auto">|https://dribbble.com/shots/2309834-Yet-another-toggle-animation|  
+|SDSwitch |<img src="https://static.dribbble.com/users/2494961/screenshots/5192899/toggle-1.gif" style="height:200;width:auto">|https://dribbble.com/shots/5192899-Simple-toggle| 
+|YapFullTextSwitch |<img src="https://static.dribbble.com/users/26878/screenshots/2330566/switchblue.gif" style="height:200;width:auto">|https://dribbble.com/shots/2330566-Morph-Switch| 
 |JDSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2346044/switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2346044-Switch-on-off|  
 
