@@ -32,11 +32,11 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 > You can play with the attributes and can customise them according to your UI demands. Below are the few examples
 ## Usage example
 
-|Class|Example|
+|Class|Example|Credit|
 |---|---|
-|Switcher|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:200;width:auto">|  
-|TKSimpleSwitch|<img src="Images/simple2.gif" style="height:200;width:auto">|  
-|TKExchangeSwitch|<img src="Images/exchange.gif" style="height:200;width:auto">|  
-|TKSmileSwitch|<img src="Images/smile.gif" style="height:200;width:auto">|  
-|TKLiquidSwitch|<img src="Images/liquid.gif" style="height:200;width:auto">|  
+|Switcher()|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:200;width:auto">|https://dribbble.com/shots/4148855-Switcher-XXXIII|  
+|SwitcherFullStrtech|<img src="https://static.dribbble.com/users/108183/screenshots/3844909/switcher_on_off.gif" style="height:200;width:auto">|https://dribbble.com/shots/3844909-On-Off|  
+|TKExchangeSwitch|<img src="Images/exchange.gif" style="height:200;width:auto">|111|  
+|TKSmileSwitch|<img src="Images/smile.gif" style="height:200;width:auto">|222|  
+|TKLiquidSwitch|<img src="Images/liquid.gif" style="height:200;width:auto">|333|  
 
