@@ -34,7 +34,7 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 
 |Class|Example|
 |-|  --------  |
-|Switcher|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:300;width:300">|https://dribbble.com/shots/4148855-Switcher-XXXIII|  
+|Switcher|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:300;width:300" https://dribbble.com/shots/4148855-Switcher-XXXIII>|  
 |SwitcherFullStrtech|<img src="https://static.dribbble.com/users/108183/screenshots/3844909/switcher_on_off.gif" style="height:300;width:300">|https://dribbble.com/shots/3844909-On-Off|  
 |SDSwitch|<img src="https://static.dribbble.com/users/106600/screenshots/3545882/bankin-switch-servercall_2x.gif" style="height:200;width:auto">|https://dribbble.com/shots/3545882-Switch-with-server-calls|  
 |YapDarkAndLightModeSwitch |<img src="https://static.dribbble.com/users/301508/screenshots/2484722/daily_ui_day_15_on_off_switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2484722-Daily-Ui-Day-15-On-Off-Switch|  
@@ -47,5 +47,7 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 |YapSwitchSlim |<img src="https://static.dribbble.com/users/153131/screenshots/2158763/toggle.gif" style="height:200;width:auto">|https://dribbble.com/shots/2158763-simple-toggle| 
 |YapHalfStretchSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-23.gif" style="height:200;width:auto">|| 
 |YapSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-24.gif" style="height:200;width:auto">|| 
+
+## Credit Dribble UI Challenges 
 
 
