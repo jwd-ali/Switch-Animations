@@ -3,7 +3,7 @@
   </p>
 <img align="right" src="https://github.com/jwd-ali/Switches/blob/master/images/Screen%20Recording%202020-08-31%20at%203.39.54%20PM.gif"  height = "580"/>
 
-# Switches
+# Switches Animations
 > An animate switch collection
 
 
