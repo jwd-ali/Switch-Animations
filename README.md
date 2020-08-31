@@ -11,7 +11,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/RingPieChart.svg?style=flat)](https://cocoapods.org/pods/RingPieChart)
 [![Swift 5.1](https://img.shields.io/badge/swift-5.1-orange)](https://swift.org)
 
-<p><h4>Add Beautiful Customise Switch in your application to boost UI and UX</h4></p>
+<p><h4>Add Beautiful Customise Switch in your application to enhance your application UI and UX</h4></p>
 
 ___
 
