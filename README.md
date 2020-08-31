@@ -34,19 +34,19 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 
 |Class|Example|
 |-|  --------  |
-|Switcher|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:300;width:300"><h1>Credit</h1> Dribble UI Challenge: https://dribbble.com/shots/4148855-Switcher-XXXIII|  
-|SwitcherFullStrtech|<img src="https://static.dribbble.com/users/108183/screenshots/3844909/switcher_on_off.gif" style="height:300;width:300">|https://dribbble.com/shots/3844909-On-Off|  
-|SDSwitch|<img src="https://static.dribbble.com/users/106600/screenshots/3545882/bankin-switch-servercall_2x.gif" style="height:200;width:auto">|https://dribbble.com/shots/3545882-Switch-with-server-calls|  
-|YapDarkAndLightModeSwitch |<img src="https://static.dribbble.com/users/301508/screenshots/2484722/daily_ui_day_15_on_off_switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2484722-Daily-Ui-Day-15-On-Off-Switch|  
-|YapAnimatedSwitch|<img src="https://static.dribbble.com/users/45534/screenshots/2309834/5.gif" style="height:200;width:auto">|https://dribbble.com/shots/2309834-Yet-another-toggle-animation|  
-|SDSwitch |<img src="https://static.dribbble.com/users/2494961/screenshots/5192899/toggle-1.gif" style="height:200;width:auto">|https://dribbble.com/shots/5192899-Simple-toggle| 
-|YapFullTextSwitch |<img src="https://static.dribbble.com/users/26878/screenshots/2330566/switchblue.gif" style="height:200;width:auto">|https://dribbble.com/shots/2330566-Morph-Switch| 
-|JDSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2346044/switch.gif" style="height:200;width:auto">|https://dribbble.com/shots/2346044-Switch-on-off| 
-|YapSmileSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2011284/switcher-ll.gif" style="height:200;width:auto">|https://dribbble.com/shots/2011284-Switcher-ll| 
-|YapLiquidSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2028065/switcher-lll.gif" style="height:200;width:auto">|https://dribbble.com/shots/2028065-Switcher-lll| 
-|YapSwitchSlim |<img src="https://static.dribbble.com/users/153131/screenshots/2158763/toggle.gif" style="height:200;width:auto">|https://dribbble.com/shots/2158763-simple-toggle| 
-|YapHalfStretchSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-23.gif" style="height:200;width:auto">|| 
-|YapSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-24.gif" style="height:200;width:auto">|| 
+|Switcher|<img src="https://static.dribbble.com/users/108183/screenshots/4148855/switcher_xxxiii_by_volorf_.gif" style="height:300;width:300"> Dribble UI Challenge: https://dribbble.com/shots/4148855-Switcher-XXXIII|  
+|SwitcherFullStrtech|<img src="https://static.dribbble.com/users/108183/screenshots/3844909/switcher_on_off.gif" style="height:300;width:300">Dribble UI Challenge:https://dribbble.com/shots/3844909-On-Off|  
+|SDSwitch|<img src="https://static.dribbble.com/users/106600/screenshots/3545882/bankin-switch-servercall_2x.gif" style="height:200;width:auto"> Dribble UI Challenge:https://dribbble.com/shots/3545882-Switch-with-server-calls|  
+|YapDarkAndLightModeSwitch |<img src="https://static.dribbble.com/users/301508/screenshots/2484722/daily_ui_day_15_on_off_switch.gif" style="height:200;width:auto"> Dribble UI Challenge:https://dribbble.com/shots/2484722-Daily-Ui-Day-15-On-Off-Switch|  
+|YapAnimatedSwitch|<img src="https://static.dribbble.com/users/45534/screenshots/2309834/5.gif" style="height:200;width:auto"> Dribble UI Challenge:https://dribbble.com/shots/2309834-Yet-another-toggle-animation|  
+|SDSwitch |<img src="https://static.dribbble.com/users/2494961/screenshots/5192899/toggle-1.gif" style="height:200;width:auto">Dribble UI Challenge:https://dribbble.com/shots/5192899-Simple-toggle| 
+|YapFullTextSwitch |<img src="https://static.dribbble.com/users/26878/screenshots/2330566/switchblue.gif" style="height:200;width:auto"> Dribble UI Challenge:https://dribbble.com/shots/2330566-Morph-Switch| 
+|JDSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2346044/switch.gif" style="height:200;width:auto"> Dribble UI Challenge:https://dribbble.com/shots/2346044-Switch-on-off| 
+|YapSmileSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2011284/switcher-ll.gif" style="height:200;width:auto"> Dribble UI Challenge:https://dribbble.com/shots/2011284-Switcher-ll| 
+|YapLiquidSwitch |<img src="https://static.dribbble.com/users/108183/screenshots/2028065/switcher-lll.gif" style="height:200;width:auto"> Dribble UI Challenge:https://dribbble.com/shots/2028065-Switcher-lll| 
+|YapSwitchSlim |<img src="https://static.dribbble.com/users/153131/screenshots/2158763/toggle.gif" style="height:200;width:auto"> Dribble UI Challenge:https://dribbble.com/shots/2158763-simple-toggle| 
+|YapHalfStretchSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-23.gif" style="height:200;width:auto">| 
+|YapSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-24.gif" style="height:200;width:auto">|
 
 ## Credit Dribble UI Challenges 
 https://dribbble.com/shots/4148855-Switcher-XXXIII
