@@ -49,6 +49,5 @@ So i take few of the Dribble switches Daily UI challenges as challenge and imple
 |YapHalfStretchSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-23.gif" style="height:200;width:auto">| 
 |YapSwitch |<img src="https://github.com/jwd-ali/Switch-Animations/blob/master/images/ezgif.com-video-to-gif-24.gif" style="height:200;width:auto">|
 
-## Credit Dribble UI Challenges 
-https://dribbble.com/shots/4148855-Switcher-XXXIII
+
 
