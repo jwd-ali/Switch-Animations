@@ -42,6 +42,7 @@
 		E30C493E24FAE76F0049D5C3 /* JellySwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492E24FAE76F0049D5C3 /* JellySwitchesViewController.swift */; };
 		E30C494724FAE8350049D5C3 /* SwitchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C494624FAE8350049D5C3 /* SwitchType.swift */; };
 		E30C494824FAEB5B0049D5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30C494224FAE7BC0049D5C3 /* Assets.xcassets */; };
+		E3F7F99424FE171C004DBE69 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3F7F99324FE171C004DBE69 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		E30C492E24FAE76F0049D5C3 /* JellySwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JellySwitchesViewController.swift; sourceTree = "<group>"; };
 		E30C494224FAE7BC0049D5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30C494624FAE8350049D5C3 /* SwitchType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchType.swift; sourceTree = "<group>"; };
+		E3F7F99324FE171C004DBE69 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +160,9 @@
 		E30C48A724FAE6930049D5C3 = {
 			isa = PBXGroup;
 			children = (
-				E30C48B324FAE6930049D5C3 /* Switches */,
-				E30C48BE24FAE6930049D5C3 /* SwitchesTests */,
+				E3F7F99324FE171C004DBE69 /* README.md */,
+				E3F7F99224FE16D7004DBE69 /* Source */,
+				E3F7F99624FE1779004DBE69 /* Tests */,
 				E30C48EA24FAE73F0049D5C3 /* SwitchesDemo */,
 				E30C490124FAE7420049D5C3 /* SwitchesDemoTests */,
 				E30C490C24FAE7420049D5C3 /* SwitchesDemoUITests */,
@@ -177,17 +180,6 @@
 				E30C490924FAE7420049D5C3 /* SwitchesDemoUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E30C48B324FAE6930049D5C3 /* Switches */ = {
-			isa = PBXGroup;
-			children = (
-				E30C48B424FAE6930049D5C3 /* Switches.h */,
-				E30C48CB24FAE6BB0049D5C3 /* Navigation */,
-				E30C48CE24FAE6BB0049D5C3 /* Switches */,
-				E30C48B524FAE6930049D5C3 /* Info.plist */,
-			);
-			path = Switches;
 			sourceTree = "<group>";
 		};
 		E30C48BE24FAE6930049D5C3 /* SwitchesTests */ = {
@@ -315,6 +307,25 @@
 				E30C494624FAE8350049D5C3 /* SwitchType.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E3F7F99224FE16D7004DBE69 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E30C48B424FAE6930049D5C3 /* Switches.h */,
+				E30C48B524FAE6930049D5C3 /* Info.plist */,
+				E30C48CE24FAE6BB0049D5C3 /* Switches */,
+				E30C48CB24FAE6BB0049D5C3 /* Navigation */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E3F7F99624FE1779004DBE69 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E30C48BE24FAE6930049D5C3 /* SwitchesTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,6 +487,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F7F99424FE171C004DBE69 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,7 +759,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Switches/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -771,7 +783,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Switches/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
