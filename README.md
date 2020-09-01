@@ -115,6 +115,8 @@ If you prefer not to use a dependency manager, you can integrate Switches Animat
 
 - Add Sources folder into your project
 
+## Integration
+See the Demo Xcode project its easy to understand with proper comments on properties .. write me if you didn't get anything L060214@gmail.com
 
 ## Contributing
 
