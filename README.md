@@ -73,11 +73,34 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
-### Manually
 
-If you prefer not to use a dependency manager, you can integrate Switches Animations into your project manually.
+### [Swift Package Manager (SPM)](https://swift.org/package-manager)
 
-- Add Switches folder into your project
+#### Prerequisites
+- OSX
+
+
+#### Update `Package.swift`
+To integrate `Switches Animations` in your project, add the proper description to your `Package.swift` file:
+```swift
+// swift-tools-version:5.0
+import PackageDescription
+
+let package = Package(
+    name: "YOUR_PROJECT_NAME",
+    dependencies: [
+        .package(url: "https://github.com/jwd-ali/Switch-Animations.git")
+    ],
+    targets: [
+        .target(
+            name: "YOUR_TARGET_NAME",
+            dependencies: ["Switch-Animations"]
+        ),
+        ...
+    ]
+)
+```
+
   
 ### [Carthage](http://github.com/Carthage/Carthage)
 
@@ -86,3 +109,8 @@ To integrate `Switches Animations` into your Xcode project using Carthage, speci
 ```ogdl
 github "jwd-ali/Switch-Animations"
 ```
+### Manually
+
+If you prefer not to use a dependency manager, you can integrate Switches Animations into your project manually.
+
+- Add Sources folder into your project
