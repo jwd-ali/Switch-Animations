@@ -124,4 +124,4 @@ I’d love to have help on this project. For small changes please [open a pull r
 License
 -------
 
-RingPieChart is under [MIT](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) file for more info.
+Switch-Animations is under [MIT](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) file for more info.
