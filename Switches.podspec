@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/jwd-ali/Switches.git", :tag => "#{s.version}" }
 
-  s.source_files = "Switches/**/*.{h,m,swift}"
+  s.source_files = "Sources/**/*.{h,m,swift}"
   s.requires_arc = true
   s.swift_version = "5.0"
   s.frameworks = "XCTest"
