@@ -118,6 +118,13 @@ If you prefer not to use a dependency manager, you can integrate Switches Animat
 ## Integration
 See the Demo Xcode project its easy to understand with proper comments on properties .. write me if you didn't get anything L060214@gmail.com
 
+<h4>Be careful!!!</h4>
+Irreversible consequences are possible during long work with the framework.
+
+
+<img src="https://raw.githubusercontent.com/d-dotsenko/DDAnimatedSwitch/master/Info/jimThumb.gif" width=500>
+
+
 ## Contributing
 
 I’d love to have help on this project. For small changes please [open a pull request](https://github.com/jwd-ali/Switch-Animations/pulls), for larger changes please [open an issue](https://github.com/jwd-ali/Switch-Animations/issues) first to discuss what you’d like to see.
