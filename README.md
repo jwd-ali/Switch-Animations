@@ -114,3 +114,14 @@ github "jwd-ali/Switch-Animations"
 If you prefer not to use a dependency manager, you can integrate Switches Animations into your project manually.
 
 - Add Sources folder into your project
+
+
+## Contributing
+
+I’d love to have help on this project. For small changes please [open a pull request](https://github.com/jwd-ali/Switch-Animations/pulls), for larger changes please [open an issue](https://github.com/jwd-ali/Switch-Animations/issues) first to discuss what you’d like to see.
+
+
+License
+-------
+
+RingPieChart is under [MIT](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) file for more info.
