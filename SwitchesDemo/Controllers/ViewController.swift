@@ -15,14 +15,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         title = "JD Switches"
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        
-        ( navigationController?.navigationBar as? JDNavigationBar)?.changeColor(#colorLiteral(red: 0.2862745098, green: 0.7019607843, blue: 0.9411764706, alpha: 1))
-        ( navigationController?.navigationBar as? JDNavigationBar)?.shape = .wave
-        ( navigationController?.navigationBar as? JDNavigationBar)?.heightShape = 40
-        ( navigationController?.navigationBar as? JDNavigationBar)?.cycles = 3
-    }
 }
 
 //MARK:- CollectionView Delegate

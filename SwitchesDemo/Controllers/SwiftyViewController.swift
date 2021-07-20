@@ -34,12 +34,5 @@ class SwiftyViewController: UIViewController {
        title = "Stretchy Switch"
         super.viewDidLoad()
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-       
-            ( navigationController?.navigationBar as? JDNavigationBar)?.changeColor(#colorLiteral(red: 0.1861540377, green: 0.2199867666, blue: 0.2542595267, alpha: 1))
-            ( navigationController?.navigationBar as? JDNavigationBar)?.shape = .wave
-    }
-   
 
 }

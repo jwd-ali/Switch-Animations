@@ -53,11 +53,6 @@ class LoadingSwitchesViewController: UIViewController {
                 self.count += 1
             }
         }
-        
-        
-     
-            
-             ( navigationController?.navigationBar as? JDNavigationBar)?.cycles = 7
     }
     
 

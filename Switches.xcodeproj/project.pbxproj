@@ -41,8 +41,6 @@
 		E3F7F9D324FE1DD9004DBE69 /* YapSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7F9C324FE1DD9004DBE69 /* YapSwitch.swift */; };
 		E3F7F9D424FE1DD9004DBE69 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7F9C424FE1DD9004DBE69 /* CALayer+Extension.swift */; };
 		E3F7F9D524FE1DD9004DBE69 /* Switches.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7F9C524FE1DD9004DBE69 /* Switches.swift */; };
-		E3F7F9D624FE1DD9004DBE69 /* JDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7F9C724FE1DD9004DBE69 /* JDNavigationController.swift */; };
-		E3F7F9D724FE1DD9004DBE69 /* JDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7F9C824FE1DD9004DBE69 /* JDNavigationBar.swift */; };
 		E3F7F9D824FE1DD9004DBE69 /* Switches.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F7F9C924FE1DD9004DBE69 /* Switches.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -113,8 +111,6 @@
 		E3F7F9C324FE1DD9004DBE69 /* YapSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapSwitch.swift; sourceTree = "<group>"; };
 		E3F7F9C424FE1DD9004DBE69 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		E3F7F9C524FE1DD9004DBE69 /* Switches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switches.swift; sourceTree = "<group>"; };
-		E3F7F9C724FE1DD9004DBE69 /* JDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDNavigationController.swift; sourceTree = "<group>"; };
-		E3F7F9C824FE1DD9004DBE69 /* JDNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDNavigationBar.swift; sourceTree = "<group>"; };
 		E3F7F9C924FE1DD9004DBE69 /* Switches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switches.h; sourceTree = "<group>"; };
 		E3F7F9CA24FE1DD9004DBE69 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -298,7 +294,6 @@
 			children = (
 				E3F7F9BA24FE1DD9004DBE69 /* Switches */,
 				E3F7F9C524FE1DD9004DBE69 /* Switches.swift */,
-				E3F7F9C624FE1DD9004DBE69 /* Navigation */,
 				E3F7F9C924FE1DD9004DBE69 /* Switches.h */,
 				E3F7F9CA24FE1DD9004DBE69 /* Info.plist */,
 			);
@@ -320,15 +315,6 @@
 				E3F7F9C424FE1DD9004DBE69 /* CALayer+Extension.swift */,
 			);
 			path = Switches;
-			sourceTree = "<group>";
-		};
-		E3F7F9C624FE1DD9004DBE69 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				E3F7F9C724FE1DD9004DBE69 /* JDNavigationController.swift */,
-				E3F7F9C824FE1DD9004DBE69 /* JDNavigationBar.swift */,
-			);
-			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,7 +427,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Jawad Ali";
 				TargetAttributes = {
 					E30C48B024FAE6930049D5C3 = {
@@ -533,7 +519,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3F7F9D224FE1DD9004DBE69 /* BaseControl.swift in Sources */,
-				E3F7F9D624FE1DD9004DBE69 /* JDNavigationController.swift in Sources */,
 				E3F7F9CE24FE1DD9004DBE69 /* YapLiquidSwitch.swift in Sources */,
 				E3F7F9D524FE1DD9004DBE69 /* Switches.swift in Sources */,
 				E3F7F9CB24FE1DD9004DBE69 /* Switcher.swift in Sources */,
@@ -544,7 +529,6 @@
 				E3F7F9CD24FE1DD9004DBE69 /* JDSwitch.swift in Sources */,
 				E3F7F9D024FE1DD9004DBE69 /* SDSwitch.swift in Sources */,
 				E3F7F9CC24FE1DD9004DBE69 /* YapBaseSwitch.swift in Sources */,
-				E3F7F9D724FE1DD9004DBE69 /* JDNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +644,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -723,6 +708,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

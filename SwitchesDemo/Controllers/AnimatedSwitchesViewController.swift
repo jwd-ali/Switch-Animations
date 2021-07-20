@@ -33,9 +33,6 @@ class AnimatedSwitchesViewController: UIViewController {
         }
     }
     override func viewDidLoad() {
-        
-         ( navigationController?.navigationBar as? JDNavigationBar)?.changeColor(#colorLiteral(red: 0.4935741425, green: 0.5258994699, blue: 0.9827957749, alpha: 1))
-         ( navigationController?.navigationBar as? JDNavigationBar)?.cycles = 15
         title = "Animated Switches"
         super.viewDidLoad()
 

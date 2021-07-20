@@ -31,13 +31,6 @@ class ModeSwitchesViewController: UIViewController {
         super.viewDidLoad()
         modeSwitchStyleB.addTarget(self, action: #selector(switchBToggle(_:)), for: .valueChanged)
         
-        ( navigationController?.navigationBar as? JDNavigationBar)?.changeColor(#colorLiteral(red: 0.3037858903, green: 0.1899323463, blue: 0.6803773642, alpha: 1))
-               ( navigationController?.navigationBar as? JDNavigationBar)?.cycles = 5
-         ( navigationController?.navigationBar as? JDNavigationBar)?.heightShape = 12
-        ( navigationController?.navigationBar as? JDNavigationBar)?.shape = .square
-      
-        
-        
         title  = "Dark Light B Mode"
     }
     

@@ -48,12 +48,6 @@ class GradientSwitchesViewController: UIViewController {
        
             title = "Gradient Switches"
         
-         ( navigationController?.navigationBar as? JDNavigationBar)?.heightShape = 80
-        ( navigationController?.navigationBar as? JDNavigationBar)?.changeColor(#colorLiteral(red: 0.1861540377, green: 0.2199867666, blue: 0.2542595267, alpha: 1))
-        ( navigationController?.navigationBar as? JDNavigationBar)?.shape = .folded
-       
-        
-        
         
         // Do any additional setup after loading the view.
     }

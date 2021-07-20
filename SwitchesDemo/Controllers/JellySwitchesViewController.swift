@@ -36,11 +36,6 @@ class JellySwitchesViewController: UIViewController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
-        ( navigationController?.navigationBar as? JDNavigationBar)?.changeColor(#colorLiteral(red: 0.3236978054, green: 0.1063579395, blue: 0.574860394, alpha: 1))
-               ( navigationController?.navigationBar as? JDNavigationBar)?.shape = .zigzag
-               ( navigationController?.navigationBar as? JDNavigationBar)?.heightShape = 30
-               ( navigationController?.navigationBar as? JDNavigationBar)?.cycles = 5
-        
         title = "Jelly Switch"
     }
 }
