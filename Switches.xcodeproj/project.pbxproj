@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E30C48BB24FAE6930049D5C3 /* Switches.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30C48B124FAE6930049D5C3 /* Switches.framework */; };
-		E30C48C024FAE6930049D5C3 /* SwitchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C48BF24FAE6930049D5C3 /* SwitchesTests.swift */; };
-		E30C490324FAE7420049D5C3 /* SwitchesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C490224FAE7420049D5C3 /* SwitchesDemoTests.swift */; };
-		E30C490E24FAE7420049D5C3 /* SwitchesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C490D24FAE7420049D5C3 /* SwitchesDemoUITests.swift */; };
 		E30C492F24FAE76F0049D5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C491A24FAE76F0049D5C3 /* AppDelegate.swift */; };
 		E30C493024FAE76F0049D5C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C491B24FAE76F0049D5C3 /* SceneDelegate.swift */; };
 		E30C493124FAE76F0049D5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30C491D24FAE76F0049D5C3 /* LaunchScreen.storyboard */; };
@@ -44,41 +40,12 @@
 		E3F7F9D824FE1DD9004DBE69 /* Switches.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F7F9C924FE1DD9004DBE69 /* Switches.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E30C48BC24FAE6930049D5C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E30C48A824FAE6930049D5C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E30C48B024FAE6930049D5C3;
-			remoteInfo = Switches;
-		};
-		E30C48FF24FAE7420049D5C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E30C48A824FAE6930049D5C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E30C48E824FAE73F0049D5C3;
-			remoteInfo = SwitchesDemo;
-		};
-		E30C490A24FAE7420049D5C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E30C48A824FAE6930049D5C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E30C48E824FAE73F0049D5C3;
-			remoteInfo = SwitchesDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E30C48B124FAE6930049D5C3 /* Switches.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Switches.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E30C48BA24FAE6930049D5C3 /* SwitchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E30C48BF24FAE6930049D5C3 /* SwitchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesTests.swift; sourceTree = "<group>"; };
-		E30C48C124FAE6930049D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E30C48E924FAE73F0049D5C3 /* SwitchesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30C48F924FAE7420049D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E30C48FE24FAE7420049D5C3 /* SwitchesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30C490224FAE7420049D5C3 /* SwitchesDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesDemoTests.swift; sourceTree = "<group>"; };
 		E30C490424FAE7420049D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E30C490924FAE7420049D5C3 /* SwitchesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30C490D24FAE7420049D5C3 /* SwitchesDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesDemoUITests.swift; sourceTree = "<group>"; };
 		E30C490F24FAE7420049D5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E30C491A24FAE76F0049D5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,29 +90,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E30C48B724FAE6930049D5C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E30C48BB24FAE6930049D5C3 /* Switches.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E30C48E624FAE73F0049D5C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E30C48FB24FAE7420049D5C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E30C490624FAE7420049D5C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -160,7 +105,6 @@
 			children = (
 				E3F7F99324FE171C004DBE69 /* README.md */,
 				E3F7F9B924FE1DD9004DBE69 /* Sources */,
-				E3F7F99624FE1779004DBE69 /* Tests */,
 				E30C48EA24FAE73F0049D5C3 /* SwitchesDemo */,
 				E30C490124FAE7420049D5C3 /* SwitchesDemoTests */,
 				E30C490C24FAE7420049D5C3 /* SwitchesDemoUITests */,
@@ -172,21 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				E30C48B124FAE6930049D5C3 /* Switches.framework */,
-				E30C48BA24FAE6930049D5C3 /* SwitchesTests.xctest */,
 				E30C48E924FAE73F0049D5C3 /* SwitchesDemo.app */,
-				E30C48FE24FAE7420049D5C3 /* SwitchesDemoTests.xctest */,
-				E30C490924FAE7420049D5C3 /* SwitchesDemoUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E30C48BE24FAE6930049D5C3 /* SwitchesTests */ = {
-			isa = PBXGroup;
-			children = (
-				E30C48BF24FAE6930049D5C3 /* SwitchesTests.swift */,
-				E30C48C124FAE6930049D5C3 /* Info.plist */,
-			);
-			path = SwitchesTests;
 			sourceTree = "<group>";
 		};
 		E30C48EA24FAE73F0049D5C3 /* SwitchesDemo */ = {
@@ -281,14 +213,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E3F7F99624FE1779004DBE69 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E30C48BE24FAE6930049D5C3 /* SwitchesTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
 		E3F7F9B924FE1DD9004DBE69 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,24 +273,6 @@
 			productReference = E30C48B124FAE6930049D5C3 /* Switches.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E30C48B924FAE6930049D5C3 /* SwitchesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E30C48C824FAE6930049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesTests" */;
-			buildPhases = (
-				E30C48B624FAE6930049D5C3 /* Sources */,
-				E30C48B724FAE6930049D5C3 /* Frameworks */,
-				E30C48B824FAE6930049D5C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E30C48BD24FAE6930049D5C3 /* PBXTargetDependency */,
-			);
-			name = SwitchesTests;
-			productName = SwitchesTests;
-			productReference = E30C48BA24FAE6930049D5C3 /* SwitchesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		E30C48E824FAE73F0049D5C3 /* SwitchesDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E30C491024FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemo" */;
@@ -384,42 +290,6 @@
 			productReference = E30C48E924FAE73F0049D5C3 /* SwitchesDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E30C48FD24FAE7420049D5C3 /* SwitchesDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E30C491324FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemoTests" */;
-			buildPhases = (
-				E30C48FA24FAE7420049D5C3 /* Sources */,
-				E30C48FB24FAE7420049D5C3 /* Frameworks */,
-				E30C48FC24FAE7420049D5C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E30C490024FAE7420049D5C3 /* PBXTargetDependency */,
-			);
-			name = SwitchesDemoTests;
-			productName = SwitchesDemoTests;
-			productReference = E30C48FE24FAE7420049D5C3 /* SwitchesDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E30C490824FAE7420049D5C3 /* SwitchesDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E30C491624FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemoUITests" */;
-			buildPhases = (
-				E30C490524FAE7420049D5C3 /* Sources */,
-				E30C490624FAE7420049D5C3 /* Frameworks */,
-				E30C490724FAE7420049D5C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E30C490B24FAE7420049D5C3 /* PBXTargetDependency */,
-			);
-			name = SwitchesDemoUITests;
-			productName = SwitchesDemoUITests;
-			productReference = E30C490924FAE7420049D5C3 /* SwitchesDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -433,19 +303,8 @@
 					E30C48B024FAE6930049D5C3 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					E30C48B924FAE6930049D5C3 = {
-						CreatedOnToolsVersion = 11.4.1;
-					};
 					E30C48E824FAE73F0049D5C3 = {
 						CreatedOnToolsVersion = 11.4.1;
-					};
-					E30C48FD24FAE7420049D5C3 = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = E30C48E824FAE73F0049D5C3;
-					};
-					E30C490824FAE7420049D5C3 = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = E30C48E824FAE73F0049D5C3;
 					};
 				};
 			};
@@ -463,10 +322,7 @@
 			projectRoot = "";
 			targets = (
 				E30C48B024FAE6930049D5C3 /* Switches */,
-				E30C48B924FAE6930049D5C3 /* SwitchesTests */,
 				E30C48E824FAE73F0049D5C3 /* SwitchesDemo */,
-				E30C48FD24FAE7420049D5C3 /* SwitchesDemoTests */,
-				E30C490824FAE7420049D5C3 /* SwitchesDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -480,13 +336,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E30C48B824FAE6930049D5C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E30C48E724FAE73F0049D5C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,20 +343,6 @@
 				E30C493224FAE76F0049D5C3 /* Main.storyboard in Resources */,
 				E30C494824FAEB5B0049D5C3 /* Assets.xcassets in Resources */,
 				E30C493124FAE76F0049D5C3 /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E30C48FC24FAE7420049D5C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E30C490724FAE7420049D5C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,14 +364,6 @@
 				E3F7F9CD24FE1DD9004DBE69 /* JDSwitch.swift in Sources */,
 				E3F7F9D024FE1DD9004DBE69 /* SDSwitch.swift in Sources */,
 				E3F7F9CC24FE1DD9004DBE69 /* YapBaseSwitch.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E30C48B624FAE6930049D5C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E30C48C024FAE6930049D5C3 /* SwitchesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,41 +389,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E30C48FA24FAE7420049D5C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E30C490324FAE7420049D5C3 /* SwitchesDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E30C490524FAE7420049D5C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E30C490E24FAE7420049D5C3 /* SwitchesDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E30C48BD24FAE6930049D5C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E30C48B024FAE6930049D5C3 /* Switches */;
-			targetProxy = E30C48BC24FAE6930049D5C3 /* PBXContainerItemProxy */;
-		};
-		E30C490024FAE7420049D5C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E30C48E824FAE73F0049D5C3 /* SwitchesDemo */;
-			targetProxy = E30C48FF24FAE7420049D5C3 /* PBXContainerItemProxy */;
-		};
-		E30C490B24FAE7420049D5C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E30C48E824FAE73F0049D5C3 /* SwitchesDemo */;
-			targetProxy = E30C490A24FAE7420049D5C3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E30C491D24FAE76F0049D5C3 /* LaunchScreen.storyboard */ = {
@@ -788,44 +581,6 @@
 			};
 			name = Release;
 		};
-		E30C48C924FAE6930049D5C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VBQS7JDYT;
-				INFOPLIST_FILE = SwitchesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E30C48CA24FAE6930049D5C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VBQS7JDYT;
-				INFOPLIST_FILE = SwitchesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		E30C491124FAE7420049D5C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -862,90 +617,6 @@
 			};
 			name = Release;
 		};
-		E30C491424FAE7420049D5C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VBQS7JDYT;
-				INFOPLIST_FILE = SwitchesDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchesDemo.app/SwitchesDemo";
-			};
-			name = Debug;
-		};
-		E30C491524FAE7420049D5C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VBQS7JDYT;
-				INFOPLIST_FILE = SwitchesDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchesDemo.app/SwitchesDemo";
-			};
-			name = Release;
-		};
-		E30C491724FAE7420049D5C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VBQS7JDYT;
-				INFOPLIST_FILE = SwitchesDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwitchesDemo;
-			};
-			name = Debug;
-		};
-		E30C491824FAE7420049D5C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VBQS7JDYT;
-				INFOPLIST_FILE = SwitchesDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = XeroT.SwitchesDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwitchesDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -967,38 +638,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E30C48C824FAE6930049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E30C48C924FAE6930049D5C3 /* Debug */,
-				E30C48CA24FAE6930049D5C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E30C491024FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E30C491124FAE7420049D5C3 /* Debug */,
 				E30C491224FAE7420049D5C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E30C491324FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E30C491424FAE7420049D5C3 /* Debug */,
-				E30C491524FAE7420049D5C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E30C491624FAE7420049D5C3 /* Build configuration list for PBXNativeTarget "SwitchesDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E30C491724FAE7420049D5C3 /* Debug */,
-				E30C491824FAE7420049D5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
