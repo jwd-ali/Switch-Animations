@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Switches"
-  s.version      = "2.2.0"
+  s.version      = "3.0.0"
   s.summary      = "Switches framework"
   s.description  = <<-DESC
                   Switches Pod can create number of beautiful customised switch confirming from UIControl with awesome animations
@@ -14,8 +14,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/jwd-ali/Switches.git", :tag => "#{s.version}" }
 
   s.source_files = "Sources/**/*.{h,m,swift}"
-  s.requires_arc = true
   s.swift_version = "5.0"
-  s.frameworks = "XCTest"
-  
 end
