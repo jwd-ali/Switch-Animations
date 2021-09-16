@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Switches"
-  s.version      = "2.1.0"
+  s.version      = "2.2.0"
   s.summary      = "Switches framework"
   s.description  = <<-DESC
                   Switches Pod can create number of beautiful customised switch confirming from UIControl with awesome animations
