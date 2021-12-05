@@ -43,8 +43,6 @@ public typealias SDSwitchLoadingStarted = () -> Void
   fileprivate lazy var trackLayer: CALayer = {
     let shape = CALayer()
     shape.borderWidth = borderWidth
-    shape.borderColor = UIColor.blue.cgColor
-
     return shape
   }()
 
@@ -53,8 +51,6 @@ public typealias SDSwitchLoadingStarted = () -> Void
     shape.lineWidth = thumbRadiusPadding
     shape.strokeColor = loadingColor.cgColor
     shape.fillColor = UIColor.clear.cgColor
-    shape.backgroundColor = UIColor.clear.cgColor
-    shape.lineCap = .round
     return shape
   }()
 
@@ -62,9 +58,6 @@ public typealias SDSwitchLoadingStarted = () -> Void
     let shape = CAShapeLayer()
     shape.lineWidth = thumbRadiusPadding
     shape.strokeColor = loadingColor.cgColor
-    shape.fillColor = UIColor.clear.cgColor
-    shape.backgroundColor = UIColor.clear.cgColor
-    shape.lineCap = .round
     return shape
   }()
 
@@ -101,12 +94,6 @@ public typealias SDSwitchLoadingStarted = () -> Void
   }
 
   public var isLoadingEnabled: Bool = false
-
-  public var shape: shapeType = .rounded {
-    didSet {
-      layoutSublayers(of: layer)
-    }
-  }
 
   public var borderWidth: CGFloat = 2 {
     didSet {
@@ -169,7 +156,7 @@ public typealias SDSwitchLoadingStarted = () -> Void
     controlDidLoad()
   }
 
-  required public init?(coder aDecoder: NSCoder) {
+  public required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     controlDidLoad()
   }
@@ -177,8 +164,7 @@ public typealias SDSwitchLoadingStarted = () -> Void
   // MARK: - Common Init
 
   fileprivate func controlDidLoad() {
-    layer.addSublayer(trackLayer)
-    layer.addSublayer(thumbLayer)
+    [trackLayer, thumbLayer].forEach(layer.addSublayer)
 
     layer.shadowColor = UIColor.black.cgColor
     layer.shadowOffset = .zero
@@ -188,7 +174,6 @@ public typealias SDSwitchLoadingStarted = () -> Void
 
     trackLayer.backgroundColor = getBackgroundColor()
     setThumbColor()
-    layoutSublayers(of: layer)
     addTouchHandlers()
   }
 
@@ -272,16 +257,14 @@ private extension SDSwitch {
     let size = getTackSize()
     let origin = getTrackOrigin(for: size.width)
     trackLayer.frame = CGRect(origin: origin, size: size)
-
-    shape == .rounded ? (trackLayer.cornerRadius = trackLayer.bounds.height/2) : (trackLayer.cornerRadius = 5)
+    trackLayer.cornerRadius = trackLayer.bounds.midY
   }
 
   func layoutThumbLayer(for bounds: CGRect) {
     let size = getThumbSize()
     let origin = getThumbOrigin(for: size.width)
     thumbLayer.frame = CGRect(origin: origin, size: size)
-
-    shape == .rounded ? (thumbLayer.cornerRadius = size.height/2) : (thumbLayer.cornerRadius = thumbCornerRadius)
+    thumbLayer.cornerRadius = thumbLayer.bounds.midY
   }
 
   func layoutLoadingLayer(for bounds: CGRect) {
