@@ -25,6 +25,7 @@
 		E30C493E24FAE76F0049D5C3 /* JellySwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C492E24FAE76F0049D5C3 /* JellySwitchesViewController.swift */; };
 		E30C494724FAE8350049D5C3 /* SwitchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C494624FAE8350049D5C3 /* SwitchType.swift */; };
 		E30C494824FAEB5B0049D5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30C494224FAE7BC0049D5C3 /* Assets.xcassets */; };
+		E355A663275CA91F0079F6E1 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355A662275CA91F0079F6E1 /* CGRect+Extension.swift */; };
 		E3F7F99424FE171C004DBE69 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3F7F99324FE171C004DBE69 /* README.md */; };
 		E3F7F9CB24FE1DD9004DBE69 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7F9BB24FE1DD9004DBE69 /* Switcher.swift */; };
 		E3F7F9CC24FE1DD9004DBE69 /* YapBaseSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7F9BC24FE1DD9004DBE69 /* YapBaseSwitch.swift */; };
@@ -66,6 +67,7 @@
 		E30C492E24FAE76F0049D5C3 /* JellySwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JellySwitchesViewController.swift; sourceTree = "<group>"; };
 		E30C494224FAE7BC0049D5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30C494624FAE8350049D5C3 /* SwitchType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchType.swift; sourceTree = "<group>"; };
+		E355A662275CA91F0079F6E1 /* CGRect+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
 		E3F7F99324FE171C004DBE69 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E3F7F9BB24FE1DD9004DBE69 /* Switcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
 		E3F7F9BC24FE1DD9004DBE69 /* YapBaseSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapBaseSwitch.swift; sourceTree = "<group>"; };
@@ -213,6 +215,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E355A666275CA9260079F6E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3F7F9BF24FE1DD9004DBE69 /* UIImage+Extension.swift */,
+				E3F7F9C424FE1DD9004DBE69 /* CALayer+Extension.swift */,
+				E355A662275CA91F0079F6E1 /* CGRect+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E3F7F9B924FE1DD9004DBE69 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,12 +243,11 @@
 				E3F7F9BC24FE1DD9004DBE69 /* YapBaseSwitch.swift */,
 				E3F7F9BD24FE1DD9004DBE69 /* JDSwitch.swift */,
 				E3F7F9BE24FE1DD9004DBE69 /* YapLiquidSwitch.swift */,
-				E3F7F9BF24FE1DD9004DBE69 /* UIImage+Extension.swift */,
 				E3F7F9C024FE1DD9004DBE69 /* SDSwitch.swift */,
 				E3F7F9C124FE1DD9004DBE69 /* YapSmileSwitch.swift */,
 				E3F7F9C224FE1DD9004DBE69 /* BaseControl.swift */,
 				E3F7F9C324FE1DD9004DBE69 /* YapSwitch.swift */,
-				E3F7F9C424FE1DD9004DBE69 /* CALayer+Extension.swift */,
+				E355A666275CA9260079F6E1 /* Extensions */,
 			);
 			path = Switches;
 			sourceTree = "<group>";
@@ -362,6 +373,7 @@
 				E3F7F9CF24FE1DD9004DBE69 /* UIImage+Extension.swift in Sources */,
 				E3F7F9D124FE1DD9004DBE69 /* YapSmileSwitch.swift in Sources */,
 				E3F7F9CD24FE1DD9004DBE69 /* JDSwitch.swift in Sources */,
+				E355A663275CA91F0079F6E1 /* CGRect+Extension.swift in Sources */,
 				E3F7F9D024FE1DD9004DBE69 /* SDSwitch.swift in Sources */,
 				E3F7F9CC24FE1DD9004DBE69 /* YapBaseSwitch.swift in Sources */,
 			);

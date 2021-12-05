@@ -8,11 +8,11 @@
 
 import UIKit
 
-public typealias SDSwitchValueChange  = (_ value: Bool) -> Void
-open  class BaseControl: UIControl {
+public typealias SDSwitchValueChange = (_ value: Bool) -> Void
+open class BaseControl: UIControl {
+  // MARK: - Property
 
-    // MARK: - Property
-     open var valueChange: SDSwitchValueChange?
-   
-     open var isOn: Bool = false
+  open var valueChange: SDSwitchValueChange?
+
+  open var isOn: Bool = false
 }
