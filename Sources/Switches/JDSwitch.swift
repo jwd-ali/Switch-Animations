@@ -10,7 +10,7 @@
 // https://dribbble.com/shots/2346044-Switch-on-off
 
 import UIKit
-@IBDesignable public class JDSwitch: BaseControl {
+@IBDesignable open class JDSwitch: BaseControl {
   // MARK: - Views
 
   private lazy var thumbLayer: CALayer = {

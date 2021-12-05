@@ -24,7 +24,7 @@ enum LoadingResult {
 
 public typealias SDSwitchLoadingStarted = () -> Void
 
-@IBDesignable public class SDSwitch: BaseControl {
+@IBDesignable open class SDSwitch: BaseControl {
   open var loadingStarted: SDSwitchLoadingStarted?
 
   // MARK: - Views
@@ -169,7 +169,7 @@ public typealias SDSwitchLoadingStarted = () -> Void
     controlDidLoad()
   }
 
-  required init?(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     controlDidLoad()
   }
