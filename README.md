@@ -18,6 +18,8 @@
 
 ___
 
+Medium Article 
+https://medium.com/@l060214/how-to-create-loading-uiswitch-with-calayers-and-caanimations-4667c1fa845
 
 <p>
 From time to time I browse Dribbble to get inspiration from UI/UX designers. You often see non-native control elements in these designs. Some, such as checkboxes, have no native counterpart in UIKit while others like switches are— except they’re nearly impossible to customize. You cannot even change the size of a UISwitch. What if you need to implement a completely custom designed switch for your app like this one
