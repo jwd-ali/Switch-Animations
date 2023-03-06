@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://github.com/jwd-ali/Switches/blob/master/SwitchesDemo/Resources/Assets.xcassets/switch-animation-post.imageset/switch-animation-post.jpg">
   </p>
-<img align="right" src="https://github.com/jwd-ali/Switches/blob/master/images/Screen%20Recording%202020-08-31%20at%203.39.54%20PM.gif"  height = "580"/>
+<img align="right" src="https://github.com/jwd-ali/Switches/blob/master/images/Screen%20Recording%202020-08-31%20at%203.39.54%20PM.gif"/>
 
 # Switches Animations
 > An animated switch collection
